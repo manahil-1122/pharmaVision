@@ -1,0 +1,70 @@
+﻿@model Capsules;
+
+@* edit in admin *@
+
+<div class="container-fluid mt-3 bg-light animate__animated  animate__fadeIn">
+    <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-9">
+            <div class="text-center">
+                <h2 class="pt-2">Edit Information About Capsules</h2>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="row justify-content-center mt-4">
+        <div class="col-md-2"></div>
+        <div class="col-lg-8 mb-5">
+            <div class="card border-0 p-4 rounded shadow">
+                <div class="row">
+                    <div class="col-md-12 mt-4">
+                        <img src="~/libs/images/cap11.jpg" class="avatar avatar-md-md rounded-pill shadow mx-auto d-block" style="width: 150px; height: 150px;" alt="">
+                    </div>
+                </div>
+
+                <form class="pt-5" asp-action="Edit" method="post">
+                    <input type="hidden" asp-for="Id" />
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="mb-3">
+                                <label asp-for="CapName" class="form-label">Capsule Name</label>
+                                <input asp-for="CapName" id="name" type="text" class="form-control" placeholder="Name :">
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="mb-3">
+                                <label asp-for="Output" class="form-label">Capsule Output</label>
+                                <input asp-for="Output" id="name2" type="text" class="form-control" placeholder="Output :">
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="mb-3">
+                                <label asp-for="CapSize" class="form-label">Capsules Size :</label>
+                                <input asp-for="CapSize" id="email" type="text" class="form-control" placeholder="Size :">
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="mb-3">
+                                <label asp-for="MachDim" class="form-label">Machine Dimension :</label>
+                                <input asp-for="MachDim" id="number" type="text" class="form-control" placeholder="Dimension :">
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="mb-3">
+                                <label asp-for="ShipWeight" class="form-label">Shipment Weight Of Capsules :</label>
+                                <input asp-for="ShipWeight" type="text" class="form-control start" placeholder="Weight :">
+                            </div>
+                        </div>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">Edit Information</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,132 @@
+﻿@model Liquid
+@* create in admin *@
+
+<div class="container-fluid bg-light mt-3 animate__animated  animate__fadeIn">
+    <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-10">
+            <div class="layout-spacing">
+                <div class="d-md-flex justify-content-center">
+                    <h4 class="mb-0 pt-4 ps-2">Add New Fillings</h4>
+                </div>
+
+                @if (TempData["SuccessMessage"] != null)
+                {
+                    <div id="successMessage" class="alert alert-info">
+                        @TempData["SuccessMessage"]
+                    </div>
+                }
+
+                <div class="row">
+                    <div class="col-lg-8 mt-4">
+                        <div class="card border-0 p-4 rounded shadow">
+                            <div class="row">
+                                <div class="col-md-4 mt-4">
+                                    <img src="~/libs/images/syr.jpg" class="avatar avatar-md-md rounded-pill shadow mx-auto d-block" style="width: 140px; height: 140px;" alt="">
+                                </div>
+                                <div class="col-md-8 mt-4 mt-sm-0 pt-4">
+                                    <h5 class="">Define Fillings(Syringe)..</h5>
+                                    <p class="text-muted mb-0">
+                                        Fillings(Syringes) are often used to administer injections, insert intravenous drugs into the bloodstream,
+                                        and apply compounds such as glue or lubricant, and measure liquids, usually designed for one-time use.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <form class="pt-5" id="liqForm" asp-action="Create" method="post">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="mb-3">
+                                            <label asp-for="LiquidName" class="form-label">Liquid Name:</label>
+                                            <input asp-for="LiquidName" id="name" type="text" class="form-control" placeholder="Name:">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="mb-3">
+                                            <label asp-for="AirPressure" class="form-label">Air Pressure:</label>
+                                            <input asp-for="AirPressure" id="name2" type="text" class="form-control" placeholder="Pressure:">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="mb-3">
+                                            <label asp-for="AirVolume" class="form-label">Air Volume:</label>
+                                            <input asp-for="AirVolume" id="email" type="text" class="form-control" placeholder="Volume:">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="mb-3">
+                                            <label asp-for="FillSpeed" class="form-label">Filling Speed:</label>
+                                            <input asp-for="FillSpeed" id="number" type="text" class="form-control" placeholder="Speed:">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="mb-3">
+                                            <label asp-for="FillRange" class="form-label">Filling Range:</label>
+                                            <input asp-for="FillRange" type="text" class="form-control start" placeholder="Range:">
+                                        </div>
+                                    </div>
+                                </div>
+                                <button type="submit" class="btn btn-primary">Add Fillings</button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 mt-4">
+                        <div class="card rounded border-0 shadow">
+                            <div class="p-4 border-bottom">
+                                <h5 class="mb-0">Some Most Popular Syringe List</h5>
+                            </div>
+                            <ul class="list-unstyled mb-0 p-4" data-simplebar style="height: 629px;">
+                                <li class="d-md-flex align-items-center text-center text-md-start">
+                                    <img src="../libs/images/ins.jpeg" class="avatar avatar-medium rounded-md shadow" alt="">
+                                    <div class="ms-md-3 mt-4 mt-sm-0">
+                                        <a href="#" class="text-dark h6">Insulin Syringes</a>
+                                        <p class="text-muted mb-0">For Diabetes Management</p>
+                                    </div>
+                                </li>
+                                <li class="d-md-flex align-items-center text-center text-md-start mt-4">
+                                    <img src="../libs/images/tube.jpg" class="avatar avatar-medium rounded-md shadow" alt="">
+                                    <div class="ms-md-3 mt-4 mt-sm-0">
+                                        <a href="#" class="text-dark h6">Tuberculin Syringes</a>
+                                        <p class="text-muted mb-0">For Skin Tests</p>
+                                    </div>
+                                </li>
+                                <li class="d-md-flex align-items-center text-center text-md-start mt-4">
+                                    <img src="../libs/images/anas.jpg" class="avatar avatar-medium rounded-md shadow" alt="">
+                                    <div class="ms-md-3 mt-4 mt-sm-0">
+                                        <a href="#" class="text-dark h6">Anaesthesia Syringes</a>
+                                        <p class="text-muted mb-0">Numbs Specific Area of Body</p>
+                                    </div>
+                                </li>
+                                <li class="d-md-flex align-items-center text-center text-md-start mt-4">
+                                    <img src="../libs/images/epi.jpeg" class="avatar avatar-medium rounded-md shadow" alt="">
+                                    <div class="ms-md-3 mt-4 mt-sm-0">
+                                        <a href="#" class="text-dark h6">Epidural Syringe</a>
+                                        <p class="text-muted mb-0">Pain management during childbirth or surgery.</p>
+                                    </div>
+                                </li>
+                                <li class="d-md-flex align-items-center text-center text-md-start mt-4">
+                                    <img src="../libs/images/covid.webp" class="avatar avatar-medium rounded-md shadow" alt="">
+                                    <div class="ms-md-3 mt-4 mt-sm-0">
+                                        <a href="#" class="text-dark h6">Pfizer Vaccine</a>
+                                        <p class="text-muted mb-0">COVID-19 Vaccine</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> <!-- Ensure jQuery is included -->
+    <script>
+        $(document).ready(function () {
+            if ($('#successMessage').length) {
+                $('#successMessage').fadeIn('slow').delay(1000).fadeOut('slow');
+            }
+        });
+    </script>
+}

@@ -1,0 +1,98 @@
+﻿@model Tablets;
+
+@* edit for admin *@
+
+<div class="container-fluid mt-3 bg-light animate__animated  animate__fadeIn">
+    <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-10">
+            <div class="text-center">
+                <h2 class="pt-2">Edit Information About Tablets</h2>
+            </div>
+
+        </div>
+    </div>
+   
+    <div class="row justify-content-center mt-4">
+        <div class="col-md-2"></div>
+        <div class="col-lg-8 mb-5">
+            <div class="card border-0 p-4 rounded shadow">
+                <div class="row">
+                    <div class="col-md-12 mt-4">
+                        <img src="~/libs/images/tab2.jpg" class="avatar avatar-md-md rounded-pill shadow mx-auto d-block" style="width: 150px; height: 150px;" alt="">
+                    </div>
+                </div>
+
+                <form class="pt-5" asp-action="Edit" method="post">
+                    <input type="hidden" asp-for="Id" />
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="mb-3">
+                                <label asp-for="MedName" class="form-label">Medicine Name</label>
+                                <input asp-for="MedName" id="name" type="text" class="form-control" placeholder="Name :">
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="mb-3">
+                                <label asp-for="ModelNum" class="form-label">Model Number</label>
+                                <input asp-for="ModelNum" id="name2" type="text" class="form-control" placeholder="Number :">
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="mb-3">
+                                <label asp-for="Dies" class="form-label">Dies Considered for Production:</label>
+                                <input asp-for="Dies" id="email" type="text" class="form-control" placeholder="Dies :">
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="mb-3">
+                                <label asp-for="MaxPres" class="form-label">Maximum Pressure :</label>
+                                <input asp-for="MaxPres" id="number" type="text" class="form-control" placeholder="Pressure :">
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="mb-3">
+                                <label asp-for="Diameter" class="form-label">Max Diameter of Tablet :</label>
+                                <input asp-for="Diameter" type="text" class="form-control start" placeholder="Diameter :">
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="mb-3">
+                                <label asp-for="Depth" class="form-label">Max Depth of Tablet Filling :</label>
+                                <input asp-for="Depth" type="text" class="form-control start" placeholder="Depth :">
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="mb-3">
+                                <label asp-for="ProdCapacity" class="form-label">Production Capacity :</label>
+                                <input asp-for="ProdCapacity" type="text" class="form-control start" placeholder="Capacity :">
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="mb-3">
+                                <label asp-for="MachineSize" class="form-label">Machine Size of Tablet Produced :</label>
+                                <input asp-for="MachineSize" type="text" class="form-control start" placeholder="Size :">
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="mb-3">
+                                <label asp-for="NetWeight" class="form-label">Net Weight of Tablet :</label>
+                                <input asp-for="NetWeight" type="text" class="form-control start" placeholder="Weight :">
+                            </div>
+                        </div>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">Edit Information</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

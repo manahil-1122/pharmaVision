@@ -1,0 +1,94 @@
+﻿
+@* view to admin *@
+
+<div class="container-fluid bg-light mt-3 h-100 animate__animated  animate__fadeIn">
+   
+     <div class="row">
+         <div class="col-md-2"></div>
+         <div class="col-md-10">
+            <div class="layout-spacing">
+                <div class="d-md-flex justify-content-center">
+                    <h4 class="mb-2 pt-4 ps-5">Feedbacks(Reviews)</h4>
+                    </div>
+                    </div>
+                    <!-- Start Content -->
+                    <div class="row mb-5">
+                       
+                        <div class="col-md-11 ms-5 mx-2">
+                    <div class="table-responsive  shadow rounded mt-3">
+                        <table class="table table-striped table-hover custom-data-table jakarta" id="doctorlist">
+                            <thead class="table-primary">
+                                <tr>
+                                    <td class="">Name</td>
+                                    <td class="">Company Name</td>
+                                    <td class="">Address</td>
+                                    <td class="">City</td>
+                                    <td class="">State</td>
+                                    <td class="">Postal Code</td>
+                                    <td class="">Country</td>
+                                    <td class="text-center">Email</td>
+                                    <td class="">Phone</td>
+
+                                    <td class="no-sort">Comments</td>
+
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var comments in Model)
+                                {
+                                <tr>
+                                    
+                                    <td class="p-3">
+                                        <a href="#" class="text-dark">
+                                            <div class="d-flex align-items-center">
+                                                <img src="../libs/images/prof.png" class="avatar avatar-md-sm rounded-circle shadow" alt="">
+                                                    <span class="ms-2">@comments.Name</span>
+                                            </div>
+                                        </a>
+                                    </td>
+                                        <td class="p-3">@comments.CompName</td>
+                                        <td class="p-3">@comments.Address</td>
+                                        <td class="p-3">@comments.City</td>
+                                        <td class="p-3">@comments.State</td>
+                                        <td class="p-3">@comments.PostalCode</td>
+                                        <td class="p-3">@comments.Country</td>
+                                        <td class="p-3">@comments.Email</td>
+                                        <td class="p-3">@comments.Phone</td>
+                                        <td class="p-3">@comments.Comments</td>
+                                    
+                                    
+
+                                </tr>
+
+                                
+                               
+
+                                
+                                }
+
+                               
+
+                               
+
+
+
+                              
+
+                              
+                            </tbody>
+                        </table>
+                    </div>
+                        </div>
+                    </div>
+                    </div>
+                    </div>
+                    </div>
+
+                                      
+                               
+                            
+
+                        
+                    
+            
+            

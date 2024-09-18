@@ -1,0 +1,83 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+navbar {
+    z-index: 1000; /* Adjust the z-index value as needed */
+}
+
+/*sidebar*/
+/* Add this to your site.css or WebApplication1.styles.css */
+
+/* Ensure the sidebar does not show scrollbar */
+.sidebar-content {
+    overflow: hidden !important;
+}
+
+/* Ensure the main content adjusts properly */
+.page-wrapper.toggled .sidebar-wrapper {
+    width: 250px; /* Adjust the width as per your design */
+}
+
+.page-wrapper .container {
+    margin-left: 250px; /* Same value as sidebar width */
+}
+
+.page-wrapper .sidebar-wrapper.sidebar-dark {
+    height: 100vh;
+    overflow-y: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    background-color: #343a40; /* Adjust color as needed */
+}
+
+.sidebar-menu .sidebar-dropdown {
+    display: block;
+}
+
+.sidebar-menu .sidebar-submenu {
+    display: none;
+}
+
+.sidebar-menu .sidebar-dropdown.active .sidebar-submenu {
+    display: block;
+}
+/*.sidebar-submenu {
+    display: none;
+}
+
+.sidebar-submenu.open {
+        display: block;
+    }*/
+/* Hide the submenu by default */
+.sidebar-submenu {
+    display: none;
+}
+
+/* Show the submenu when its parent is active */
+.sidebar-dropdown.active > .sidebar-submenu {
+    display: block;
+}
+
+
+

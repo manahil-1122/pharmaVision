@@ -1,0 +1,71 @@
+﻿@model Liquid;
+
+@* edit for admin *@
+
+<div class="container-fluid mt-3 bg-light animate__animated  animate__fadeIn">
+    <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-10">
+            <div class="text-center">
+                <h2 class="pt-2">Edit Information About Syringe(Fillings)</h2>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="row justify-content-center mt-4">
+        <div class="col-md-2"></div>
+        <div class="col-lg-8 mb-5">
+       
+            <div class="card border-0 p-4 rounded shadow">
+                <div class="row">
+                    <div class="col-md-12 mt-4">
+                        <img src="~/libs/images/syr.jpg" class="avatar avatar-md-md rounded-pill shadow mx-auto d-block" style="width: 150px; height: 150px;" alt="">
+                    </div>
+                </div>
+
+                <form class="pt-5" asp-action="Edit" method="post">
+                    <input type="hidden" asp-for="Id" />
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="mb-3">
+                                <label asp-for="LiquidName" class="form-label">Liquid Name</label>
+                                <input asp-for="LiquidName" id="name" type="text" class="form-control" placeholder="Name :">
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="mb-3">
+                                <label asp-for="AirPressure" class="form-label">Air Pressure</label>
+                                <input asp-for="AirPressure" id="name2" type="text" class="form-control" placeholder="Pressure :">
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="mb-3">
+                                <label asp-for="AirVolume" class="form-label">Air Volume :</label>
+                                <input asp-for="AirVolume" id="email" type="text" class="form-control" placeholder="Volume :">
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="mb-3">
+                                <label asp-for="FillSpeed" class="form-label">Filling Speed :</label>
+                                <input asp-for="FillSpeed" id="number" type="text" class="form-control" placeholder="Speed :">
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="mb-3">
+                                <label asp-for="FillRange" class="form-label">Filling Range :</label>
+                                <input asp-for="FillRange" type="text" class="form-control start" placeholder="Range :">
+                            </div>
+                        </div>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">Edit Information</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

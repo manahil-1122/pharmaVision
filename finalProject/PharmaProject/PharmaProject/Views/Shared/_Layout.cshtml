@@ -1,0 +1,463 @@
+﻿
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta tags and stylesheets -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData[""] - PHARMA CARE</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+
+   
+
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/WebApplication1.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/libs/iconscout/unicons/css/line.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/libs/remixicon/fonts/remixicon.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/libs/css/icons.min.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/libs/css/style.min.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/libs/simplebar/simplebar.min.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/libs/css/bootstrap.min.css" asp-append-version="true" />
+
+    @*ye ERP ki links hein *@
+    @* <link rel="icon" type="image/x-icon" href="includes/images/favicon.ico"> *@
+    <link rel="stylesheet" href="~/assets/css/bootstrap-icons.css" asp-append-version="true">
+    <link rel="stylesheet" href="~/assets/css/responsive.bootstrap5.min.css" asp-append-version="true">
+    <link rel="stylesheet" href="~/assets/css/dataTables.bootstrap5.min.css" asp-append-version="true">
+    <link rel="stylesheet" href="~/assets/css/bootstrap-datepicker.min.css" asp-append-version="true">
+    <link rel="stylesheet" href="~/libs/font-awesome/6.4.2/css/all.min.css" asp-append-version="true">
+    <link rel="stylesheet" href="~/assets/css/bootstrap.css" asp-append-version="true">
+    <link rel="stylesheet" href="~/assets/css/style.css" asp-append-version="true">
+
+    @* ye userpage ki links hai *@
+   @*  <link rel="shortcut icon" href="https://shreethemes.in/doctris/layouts/assets/images/favicon.ico"> *@
+    <link rel="stylesheet" href="../assets2/libs/tiny-slider/tiny-slider.css" asp-append-version="true">
+    <link href="../assets2/libs/tobii/css/tobii.min.css" rel="stylesheet" asp-append-version="true">
+   <link href="../assets2/css/bootstrap.min.css" class="theme-opt" rel="stylesheet" type="text/css" asp-append-version="true" /> 
+   <link href="../assets2/css/icons.min.css" rel="stylesheet" type="text/css" asp-append-version="true" /> 
+   <link href="../assets2/libs/remixicon/fonts/remixicon.css" rel="stylesheet" type="text/css" asp-append-version="true" /> 
+   <link href="../assets2/libs/%40iconscout/unicons/css/line.css" type="text/css" rel="stylesheet" asp-append-version="true" /> 
+   <link href="../assets2/css/style.min.css" class="theme-opt" rel="stylesheet" type="text/css" asp-append-version="true" />
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" asp-append-version="true" />
+  
+</head>
+
+
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white  box-shadow">
+            <div class="container-fluid">
+            
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-end">
+                    <ul class="navbar-nav flex-grow-1 justify-content-end">
+                        
+                        @if (User.Identity.IsAuthenticated)
+                        {
+                            var isUser = User.IsInRole("User");
+
+                            if (isUser)
+                            {
+                                <!-- Navbar STart for user -->
+                                <header id="topnav" class="navigation sticky">
+                                    <div class="container-fluid mx-5">
+                                        <!-- Logo container-->
+                                        <div>
+                                            <a class="logo">
+                                                <span class="logo-light-mode ps-5">
+                                                    <img src="~/assets2/images/logofinal.png" class="l-dark pt-1" height="100" alt="">
+                                                    <img src="~/assets2/images/logofinal.png" class="l-light pt-1" height="100" alt="">
+                                                </span>
+                                               
+                                            </a>
+                                        </div>
+                                        <!-- End Logo container-->
+                                        <!-- Start Mobile Toggle -->
+                                        <div class="menu-extras">
+                                            <div class="menu-item">
+                                                <!-- Mobile menu toggle-->
+                                                <a class="navbar-toggle" id="isToggle" onclick="toggleMenu()">
+                                                    <div class="lines">
+                                                        <span></span>
+                                                        <span></span>
+                                                        <span></span>
+                                                    </div>
+                                                </a>
+                                                <!-- End mobile menu toggle-->
+                                            </div>
+                                        </div>
+                                        <!-- End Mobile Toggle -->
+                                      
+
+                                        <div id="navigation ">
+                                            <!-- Navigation Menu-->
+                                            <ul class="navigation-menu nav-left nav-light ps-4 pt-2">
+                                                <li class="has-submenu parent-menu-item">
+                                                    <a asp-controller="Home" asp-action="Index">Home</a>
+
+                                                </li>
+
+                                                <li class="has-submenu parent-menu-item">
+                                                    <a asp-area="" asp-controller="Home" asp-action="About">About Us</a>
+
+                                                </li>
+
+
+
+                                                <li class="has-submenu parent-menu-item">
+                                                    <a href="javascript:void(0)">Products</a><span class="menu-arrow"></span>
+                                                    <ul class="submenu">
+                                                        <li><a asp-area="" asp-controller="Capsules" asp-action="Index" class="sub-menu-item">Capsules</a></li>
+                                                        <li><a asp-area="" asp-controller="Tablet" asp-action="Index" class="sub-menu-item">Tablets</a></li>
+                                                        <li><a asp-area="" asp-controller="Liquid" asp-action="Index" class="sub-menu-item">Fillings</a></li>
+
+                                                    </ul>
+                                                </li>
+
+                                                <li class="has-submenu parent-menu-item">
+                                                    <a href="javascript:void(0)">Orders</a><span class="menu-arrow"></span>
+                                                    <ul class="submenu">
+                                                        <li><a asp-area="" asp-controller="Order" asp-action="Create" class="sub-menu-item">Order Now</a></li>
+                                                        <li><a asp-area="" asp-controller="OrderStatus" asp-action="Index" class="sub-menu-item">Track Your Order</a></li>
+
+
+                                                    </ul>
+                                                </li>
+
+                                                <li class="has-submenu parent-menu-item">
+                                                    <a asp-area="" asp-controller="Home" asp-action="Report">Report</a>
+
+                                                </li>
+
+                                                <li class="has-submenu parent-menu-item">
+                                                    <a asp-area="" asp-controller="Feed" asp-action="Create">Feedback</a>
+
+                                                </li>
+
+                                                <li class="has-submenu parent-menu-item">
+                                                    <a asp-area="" asp-controller="Career" asp-action="Create">Careers</a>
+
+                                                </li>
+
+
+                                                <li class="has-submenu parent-menu-item d-flex">
+                                                    <a asp-area="" asp-controller="Home" asp-action="Contact" class="d-flex">Contact Us</a>
+                                                </li>
+                                                
+                                                <li class="has-submenu parent-menu-item">
+                                                    <a asp-area="" asp-controller="Main" asp-action="Logout">Log Out</a>
+                                                </li>
+
+
+                                            </ul>
+                                                
+                                        </div><!--end navigation-->
+                                    </div><!--end container-->
+                                </header>
+
+                                <!--end header-->
+                                <!-- Navbar End -->
+                           
+                            }
+                            
+                        }
+                        else
+                        {
+                            
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Main" asp-action="Login">Login</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Main" asp-action="Signup">Create New Account</a>
+                            </li>
+                            
+                        }
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    @if (User.Identity.IsAuthenticated && User.IsInRole("Admin"))
+    {
+        @* navbar and sidebar for admin *@
+       <div class="page-wrapper doctris-theme toggled">
+            <div class="row">
+                <div class="col-md-2"></div>
+                <div class="col-md-10">
+                    <div class="top-header">
+                        <div class="header-bar d-flex justify-content-between ">
+                            <div class="d-flex align-items-center">
+
+                                <a id="close-sidebar" class="btn btn-icon btn-pills btn-soft-primary ms-4" href="#">
+                                    <i class="fa-solid fa-prescription-bottle-medical" style="color:#2F2F75"></i>
+                                </a>
+
+
+                                <div class="search-bar p-0 d-none d-lg-block ms-2">
+                                    <div id="search" class="menu-search mb-0">
+                                        <form role="search" method="get" id="searchform" class="searchform">
+                                            <div>
+                                                <input type="text" class="form-control border rounded-pill" name="s" id="s" placeholder="Search Keywords...">
+                                                <input type="submit" id="searchsubmit" value="Search">
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <ul class="list-unstyled mb-0">
+                                
+
+                                <li class="list-inline-item mb-0 ms-1 me-2">
+
+                                    <div class="btn btn-icon btn-pills btn-soft-primary"><i data-feather="settings" class="fea icon-sm" style="color:#2F2F75"></i></div>
+                                   
+                                </li>
+
+                               
+
+                                <li class="list-inline-item mb-0 ms-1 me-2">
+                                    <div class="btn btn-icon btn-pills btn-soft-primary"><i data-feather="mail" class="fea icon-sm" style="color:#2F2F75"></i> </div>
+
+
+
+
+                                </li>
+
+                                <li class="list-inline-item mb-0 ms-1 me-4">
+                                    <a class="btn btn-icon btn-pills btn-soft-primary" asp-area="" asp-controller="Main" asp-action="Logout">
+                                        <i class="fa-solid fa-prescription-bottle-medical" style="color:#2F2F75"></i>
+                                    </a>
+                                    
+                                    <span>Logout</span> <!-- Text for Logout -->
+                                </li>
+
+
+                                
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+           
+            <!-- sidebar-wrapper -->
+        @using Microsoft.AspNetCore.Http
+        @inject IHttpContextAccessor HttpContextAccessor
+            @{
+                var currentController = HttpContextAccessor.HttpContext.Request.RouteValues["controller"]?.ToString();
+                var currentAction = HttpContextAccessor.HttpContext.Request.RouteValues["action"]?.ToString();
+                var tabletsExpanded = currentController == "Tablet" ? "show" : "";
+                var fillingsExpanded = currentController == "Liquid" ? "show" : "";
+                var capsulesExpanded = currentController == "Capsules" ? "show" : "";
+               
+            }
+
+            <nav id="sidebar" class="sidebar-wrapper sidebar animate__animated animate__fadeInLeft" style="background-color: #2F2F75;">
+                <div class="sidebar-content"  >
+                    <ul class="sidebar-menu ps-4 my-0">
+                        <img src="~/assets2/images/logofinal.png" class=" my-0" width="70%"  />
+                    </ul>
+                    <br />
+
+                    <!-- dashboard -->
+                    <a asp-controller="Home" asp-action="Index" class="text-white ps-5 fs-5 @(currentController == "Home" && currentAction == "Index" ? "active" : "")">
+                         <i class="fa-solid fa-prescription-bottle-medical  me-2 d-inline-block"></i>Dashboard
+                    </a>
+                    <br />
+                    <br />
+                    <br />
+
+                    <!-- tablets -->
+                    <a href="#tablets" data-toggle="collapse" aria-expanded="false" class="text-white ps-5 fs-6 pt-5 mt-5">
+                        <i class="fa-solid fa-tablets me-2 d-inline-block"></i>Tablets
+                    </a>
+                    <ul class="collapse list-unstyled @tabletsExpanded" id="tablets">
+                        <li class="text-white pt-3">
+                            <a asp-controller="Tablet" asp-action="Index" class="text-info ps-5 @(currentController == "Tablet" && currentAction == "Index" ? "active" : "")">
+                                <i class="fa-solid fa-tablets me-2 d-inline-block"></i>All Tablets
+                            </a>
+                        </li>
+                        <li class="text-white pt-1">
+                            <a asp-controller="Tablet" asp-action="Create" class="text-info ps-5 @(currentController == "Tablet" && currentAction == "Create" ? "active" : "")">
+                                <i class="fa-solid fa-tablets me-2 d-inline-block"></i>Add Tablets
+                            </a>
+                        </li>
+                    </ul>
+                    <br />
+                    <br />
+
+                    <!-- fillings -->
+                    <a href="#fillings" data-toggle="collapse" aria-expanded="false" class="text-white ps-5 fs-6">
+                        <i class="fa-solid fa-syringe me-2 d-inline-block"></i>Fillings
+                    </a>
+                    <ul class="collapse list-unstyled @fillingsExpanded" id="fillings">
+                        <li class="text-white pt-3">
+                            <a asp-controller="Liquid" asp-action="Index" class="text-info ps-5 @(currentController == "Liquid" && currentAction == "Index" ? "active" : "")">
+                                <i class="fa-solid fa-syringe me-2 d-inline-block"></i>All Fillings
+                            </a>
+                        </li>
+                        <li class="text-white pt-1">
+                            <a asp-controller="Liquid" asp-action="Create" class="text-info ps-5 @(currentController == "Liquid" && currentAction == "Create" ? "active" : "")">
+                                <i class="fa-solid fa-syringe me-2 d-inline-block"></i>Define Fillings
+                            </a>
+                        </li>
+                    </ul>
+                    <br />
+                    <br />
+
+                    <!-- Capsules -->
+                    <a href="#cap" data-toggle="collapse" aria-expanded="false" class="text-white ps-5 fs-6">
+                        <i class="ri-capsule-fill me-2 d-inline-block"></i>Capsules
+                    </a>
+                    <ul class="collapse list-unstyled @capsulesExpanded" id="cap">
+                        <li class="text-white pt-3">
+                            <a asp-controller="Capsules" asp-action="Index" class="text-info ps-5 @(currentController == "Capsules" && currentAction == "Index" ? "active" : "")">
+                                <i class="ri-capsule-fill me-2 d-inline-block"></i>All Capsules
+                            </a>
+                        </li>
+                        <li class="text-white pt-1">
+                            <a asp-controller="Capsules" asp-action="Create" class="text-info ps-5 @(currentController == "Capsules" && currentAction == "Create" ? "active" : "")">
+                                <i class="ri-capsule-fill me-2 d-inline-block"></i>Add Capsules
+                            </a>
+                        </li>
+                    </ul>
+
+                    <br />
+                    <br />
+                    <br />
+
+                    <!-- Users -->
+                    <a asp-controller="Admin" asp-action="Index" class="text-white ps-5 fs-6 @(currentController == "Admin" && currentAction == "Index" ? "active" : "")">
+                        <i class="fa-solid fa-user me-2 d-inline-block"></i>Users
+                        <span id="userCount" class="badge bg-info ms-1"></span>
+                    </a>
+                    <br />
+                    <br />
+                    <br />
+
+                    <!-- Feedback -->
+                    <a asp-controller="Feed" asp-action="Index" class="text-white ps-5 fs-6 @(currentController == "Feed" && currentAction == "Index" ? "active" : "")">
+                        <i class="fa-solid fa-comment me-2 d-inline-block"></i>Feedback
+                    </a>
+                    <br />
+                    <br />
+                    <br />
+
+                    <!-- Candidates -->
+                    <a asp-controller="Career" asp-action="Index" class="text-white ps-5 fs-6 @(currentController == "Career" && currentAction == "Index" ? "active" : "")">
+                        <i class="fa-solid fa-user-doctor me-2 d-inline-block"></i>Candidates
+                    </a>
+                    <br />
+                    <br />
+                    <br />
+
+                    <!-- orders -->
+                    <a asp-controller="Order" asp-action="Index" class="text-white ps-5 fs-6 @(currentController == "Order" && currentAction == "Index" ? "active" : "")">
+                        <i class="bi bi-bag-plus-fill me-2 d-inline-block"></i>View Orders<span id="orderCount" class="badge bg-info ms-1"></span>
+
+                    </a>
+                    <br />
+                    <br />
+                    <br />
+
+
+                    <!-- orders status -->
+                    <a asp-controller="OrderStatus" asp-action="Index" class="text-white ps-5 fs-6 @(currentController == "OrderStatus" && currentAction == "Index" ? "active" : "")">
+                        <i class="fa-solid fa-signal me-2 d-inline-block"></i>View & Update Status
+
+                    </a>
+                    <br />
+                    <br />
+                    <br />
+
+
+                    
+                </div>
+            </nav>
+            <!-- sidebar-wrapper -->
+            
+            <!-- Main content -->
+            <div class="container-fluid">
+                <main role="main" class="pb-3">
+                    @RenderBody()
+                </main>
+            </div>
+        </div>
+
+    }
+    else
+    {
+        <div class="container-fluid">
+            <main role="main" class="pb-3">
+                @RenderBody()
+            </main>
+        </div>
+    }
+    
+    <!-- JavaScript files -->
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/libs/feather-icons/feather.min.js"></script>
+    <script src="~/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/lib/js/site.js" asp-append-version="true"></script>
+    <script src="~/libs/simplebar/simplebar.min.js"></script>
+    <script src="~/libs/apexcharts/apexcharts.min.js"></script>
+    <script src="~/libs/js/admin-apexchart.init.js"></script>
+    <script src="~/libs/feather-icons/feather.min.js"></script>
+    <script src="~/libs/js/plugins.init.js"></script>
+    <script src="~/libs/js/app.js"></script>
+
+    @*ye Erp ki js files hein *@
+    <script src="~/assets/js/jquery-3.7.0.js"></script>
+    <script src="~/assets/js/jquery.min.js"></script>
+    <script src="~/assets/js/popper.min.js"></script>
+    <script src="~/assets/js/bootstrap.min.js"></script>
+    <script src="~/assets/js/jquery.dataTables.min.js"></script>
+    <script src="~/assets/js/dataTables.bootstrap5.min.js"></script>
+    <script src="~/assets/js/dataTables.responsive.min.js"></script>
+    <script src="~/assets/js/apexcharts.js"></script>
+    <script src="~/assets/js/jquery.validate.js"></script>
+    <script src="~/assets/js/bootstrap-datepicker.min.js"></script>
+    <script src="~/assets/js/jquery.slimscroll.min.js"></script>
+    <script src="~/assets/js/togglepassword.js"></script>
+    <script src="~/assets/js/all.min.js"></script>
+    <script src="~/assets/js/script.js"></script>
+
+    @* ye userpage ki links hai *@
+    
+    <script src="~/assets2/libs/tiny-slider/min/tiny-slider.js"></script>
+    <script src="~/assets2/libs/tobii/js/tobii.min.js"></script>
+    
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha384-KyZXEAg3QhqLMpG8r+Knujsl5+5hb7ie0ly7Yp1ILqZ+10I4qf6jBQW3pB6Ph+pk" crossorigin="anonymous"></script>
+ 
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9c2bvc+7PT+2Q2am7A6or7PBPLF+Q30P5bq37j5JrPyybq3Ifrt0dyQ" crossorigin="anonymous"></script>
+
+
+    <script>
+        function setActiveClass(element) {
+            // Remove active class from all elements
+            const items = document.querySelectorAll('#cap a');
+            items.forEach(item => item.classList.remove('active'));
+
+            // Add active class to the clicked element
+            element.classList.add('active');
+        }
+    </script>
+
+   
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

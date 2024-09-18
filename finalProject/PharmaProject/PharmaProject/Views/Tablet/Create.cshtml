@@ -1,0 +1,161 @@
+﻿@model Tablets
+
+@* create in admin  *@
+<div class="container-fluid bg-light mt-3 animate__animated  animate__fadeIn">
+    <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-10">
+            <div class="layout-spacing">
+                <div class="d-md-flex justify-content-center">
+                    <h4 class="mb-2 pt-4 ps-2">Add New Tablets</h4>
+                </div>
+                @if (TempData["SuccessMessage"] != null)
+                {
+                    <div id="successMessage" class="alert alert-info">
+                        @TempData["SuccessMessage"]
+                    </div>
+                }
+                <div class="row">
+                    <div class="col-lg-8 mt-4">
+                        <div class="card border-0 p-4 rounded shadow">
+                            <div class="row">
+                                <div class="col-md-4 mt-4">
+                                    <img src="../libs/images/tab2.jpg" class="avatar avatar-md-md rounded-pill shadow mx-auto d-block" style="width: 150px; height: 150px;" alt="">
+                                </div>
+                                <div class="col-md-8 mt-4 mt-sm-0 pt-4">
+                                    <h5 class="">What Is A Tablet ?</h5>
+                                    <p class="text-muted mb-0">
+                                        A tablet is a pharmaceutical oral dosage form.
+                                        It may be defined as the solid unit dosage form of medication with suitable substances and excipients, usually in powder form,
+                                        which are pressed or compacted into a solid dose.
+                                    </p>
+                                </div>
+                            </div>
+                            <form class="pt-5" id="tabForm" asp-action="Create" method="post">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="mb-3">
+                                            <label asp-for="MedName" class="form-label">Medicine Name</label>
+                                            <input asp-for="MedName" id="name" type="text" class="form-control" placeholder="Name :">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="mb-3">
+                                            <label asp-for="ModelNum" class="form-label">Model Number</label>
+                                            <input asp-for="ModelNum" id="name2" type="text" class="form-control" placeholder="Model Num :">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="mb-3">
+                                            <label asp-for="Dies" class="form-label">Dies Considered for Production :</label>
+                                            <input asp-for="Dies" id="email" type="text" class="form-control" placeholder="Dies :">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="mb-3">
+                                            <label asp-for="MaxPres" class="form-label">Maximum Pressure :</label>
+                                            <input asp-for="MaxPres" id="number" type="text" class="form-control" placeholder="Pressure :">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="mb-3">
+                                            <label asp-for="Diameter" class="form-label">Maximum Diameter of Tablet :</label>
+                                            <input asp-for="Diameter" type="text" class="form-control start" placeholder="Diameter :">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="mb-3">
+                                            <label asp-for="Depth" class="form-label">Maximum Depth :</label>
+                                            <input asp-for="Depth" type="text" class="form-control start" placeholder="Depth :">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="mb-3">
+                                            <label asp-for="ProdCapacity" class="form-label">Production Capacity :</label>
+                                            <input asp-for="ProdCapacity" type="text" class="form-control start" placeholder="Capacity :">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="mb-3">
+                                            <label asp-for="MachineSize" class="form-label">Machine Size :</label>
+                                            <input asp-for="MachineSize" type="text" class="form-control start" placeholder="Size :">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="mb-3">
+                                            <label asp-for="NetWeight" class="form-label">Net Weight of Tablet :</label>
+                                            <input asp-for="NetWeight" type="text" class="form-control start" placeholder="Weight :">
+                                        </div>
+                                    </div>
+                                </div>
+                                <button type="submit" class="btn btn-primary">Add Tablet</button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 mt-4">
+                        <div class="card rounded border-0 shadow">
+                            <div class="p-4 border-bottom">
+                                <h5 class="mb-0">Some Most Popular Tablets List</h5>
+                            </div>
+                            <ul class="list-unstyled mb-0 p-4" data-simplebar style="height: 629px;">
+                                <li class="d-md-flex align-items-center text-center text-md-start">
+                                    <img src="../libs/images/pen.jpg" class="avatar avatar-medium rounded-md shadow" alt="">
+                                    <div class="ms-md-3 mt-4 mt-sm-0">
+                                        <a href="#" class="text-dark h6">Penicillin</a>
+                                        <p class="text-muted my-1">Antibiotic</p>
+                                        <p class="text-muted mb-0">Treat Microbial Disease</p>
+                                    </div>
+                                </li>
+                                <li class="d-md-flex align-items-center text-center text-md-start mt-4">
+                                    <img src="../libs/images/mor2.jpg" class="avatar avatar-medium rounded-md shadow" alt="">
+                                    <div class="ms-md-3 mt-4 mt-sm-0">
+                                        <a href="#" class="text-dark h6">Morphine</a>
+                                        <p class="text-muted my-1">Pain Medicines</p>
+                                        <p class="text-muted mb-0">Ban the Bane of Pain</p>
+                                    </div>
+                                </li>
+                                <li class="d-md-flex align-items-center text-center text-md-start mt-4">
+                                    <img src="../libs/images/asp.webp" class="avatar avatar-medium rounded-md shadow" alt="">
+                                    <div class="ms-md-3 mt-4 mt-sm-0">
+                                        <a href="#" class="text-dark h6">Aspirin</a>
+                                        <p class="text-muted my-1">Analgesics </p>
+                                        <p class="text-muted mb-0">Minor Pains, Fevers</p>
+                                    </div>
+                                </li>
+                                <li class="d-md-flex align-items-center text-center text-md-start mt-4">
+                                    <img src="../libs/images/sal.webp" class="avatar avatar-medium rounded-md shadow" alt="">
+                                    <div class="ms-md-3 mt-4 mt-sm-0">
+                                        <a href="#" class="text-dark h6">Salvarsan</a>
+                                        <p class="text-muted my-1">First Chemotherapy</p>
+                                        <p class="text-muted mb-0"> The Cure for Lust</p>
+                                    </div>
+                                </li>
+                                <li class="d-md-flex align-items-center text-center text-md-start mt-4">
+                                    <img src="../libs/images/lan.webp" class="avatar avatar-medium rounded-md shadow" alt="">
+                                    <div class="ms-md-3 mt-4 mt-sm-0">
+                                        <a href="#" class="text-dark h6">Lanoxin</a>
+                                        <p class="text-muted my-1">Cholesterol Drugs</p>
+                                        <p class="text-muted mb-0">Help for the Heart</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            if ($("#successMessage").length) {
+                setTimeout(function () {
+                    $("#successMessage").fadeOut('slow');
+                }, 1000); // 5000 milliseconds = 5 seconds
+            }
+        });
+    </script>
+}

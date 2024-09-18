@@ -1,0 +1,162 @@
+﻿@model IEnumerable<PharmaProject.Models.Order>
+<style>
+    .custom-bootstrap-switch {
+        width: 50px;
+        height: 25px;
+        background-color: #ddd;
+        border-radius: 15px;
+        position: relative;
+        transition: background-color 0.3s, box-shadow 0.3s;
+    }
+
+        .custom-bootstrap-switch:checked {
+            background-color: #0d6efd;
+            box-shadow: 0 0 10px rgba(0, 123, 255, 0.5);
+        }
+
+            .custom-bootstrap-switch:checked + .form-check-label {
+                color: #0d6efd;
+            }
+
+    .form-check-label {
+        font-weight: bold;
+        color: #495057;
+        margin-left: 10px;
+    }
+</style>
+
+    @* view in admin *@
+<div class="container-fluid mt-3 bg-light animate__animated  animate__fadeIn">
+    <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-10">
+            <div class="layout-spacing">
+                <div class="d-md-flex justify-content-center">
+                    <h4 class="mb-2 pt-4 ps-5">View Orders</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <div class="row mt-2">
+        <div class="col-md-2"></div>
+        <div class="col-md-10 mb-5">
+            <div class="card shadow-lg rounded">
+                <div class="card-header  text-white d-flex justify-content-between align-items-center" style="background-color: #2F2F75;">
+                    <h3 class="card-title mb-0">Orders</h3>
+                    <span id="orderCountBadge" class="badge text-dark" style="background-color:#D7E2FC">@Model.Count() Orders</span>
+                </div>
+                <div class="card-body p-4">
+
+                    <div class="table-responsive">
+                        <table class="table table-striped table-hover custom-data-table"  id="doctorlist">
+                            <thead class="table-primary text-center">
+                                <tr>
+                                    <td class="">Company Name</td>
+                                    <td class="">Medicine Type</td>
+                                    <td class="">Medicine Name</td>
+                                    <td class="">Medicine Size</td>
+                                    <td class="">Medicine Weight</td>
+                                    <td class="">Complete</td>
+                                    <td class="">Order Status</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var order in Model)
+                                {
+                                    <tr class="align-middle text-center">
+                                        <td>@order.CompName</td>
+                                        <td>
+                                            <a href="#" class="text-dark text-decoration-none">
+                                                <div class="d-flex align-items-center justify-content-center">
+                                                    <img src="../assets2/images/med.jpg" class="avatar avatar-md-sm rounded-circle shadow-sm me-2" alt="Medicine Image">
+                                                    <span>@order.MedType</span>
+                                                </div>
+                                            </a>
+                                        </td>
+                                        <td>@order.Name</td>
+                                        <td>@order.size</td>
+                                        <td>@order.weight</td>
+                                        <td>
+                                            <form asp-controller="Order" asp-action="Delete" asp-route-id="@order.Id" method="post">
+                                                <div class="form-check form-switch d-flex justify-content-center align-items-center">
+                                                    <input class="form-check-input custom-bootstrap-switch" type="checkbox" id="completeCheck@order.Id" onchange="this.form.submit()">
+                                                    <label class="form-check-label ms-2  pt-2" for="completeCheck@order.Id">Complete</label>
+                                                </div>
+                                            </form>
+                                        </td>
+                                        <td>
+                                            <form asp-controller="OrderStatus" asp-action="Create" asp-route-orderId="@order.Id" asp-route-userId="@order.UserId" method="post">
+                                                <button type="submit" class="btn btn-outline-primary btn-sm">
+                                                    <i class="bi bi-check2-square"></i> Status
+                                                </button>
+                                            </form>
+                                        </td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+
+
+<!-- Optional: Include Bootstrap JS for enhanced interactivity -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        updateOrderCount();
+
+        // Load order count from localStorage if available
+        const storedOrderCount = localStorage.getItem('orderCount');
+        if (storedOrderCount !== null) {
+            document.getElementById('orderCountBadge').textContent = `${storedOrderCount} Orders`;
+            document.getElementById('orderCount').textContent = storedOrderCount;
+        }
+    });
+
+    function toggleOrderComplete(orderId) {
+        const checkbox = document.getElementById(`completeCheck_${orderId}`);
+        const isChecked = checkbox.checked;
+
+        if (isChecked) {
+            console.log(`Order ${orderId} marked as complete`);
+        } else {
+            console.log(`Order ${orderId} marked as incomplete`);
+        }
+
+        // Update orders count badge
+        updateOrderCount();
+    }
+
+    function updateOrderCount() {
+        const checkedCount = document.querySelectorAll('input[type="checkbox"]:checked').length;
+        const totalCount = @Model.Count(); // Total orders from Razor view model
+        const remainingCount = totalCount - checkedCount;
+
+        document.getElementById('orderCountBadge').textContent = `${remainingCount} Orders`;
+        document.getElementById('orderCount').textContent = remainingCount;
+
+        // Store the count in local storage
+        localStorage.setItem('orderCount', remainingCount);
+    }
+
+    // Update the order count in localStorage whenever a new order is added
+    function addOrder() {
+        // Logic to add a new order
+        let currentOrderCount = parseInt(localStorage.getItem('orderCount')) || 0;
+        currentOrderCount += 1;
+        localStorage.setItem('orderCount', currentOrderCount);
+
+        // Update the order count in the navbar
+        document.getElementById('orderCount').textContent = currentOrderCount;
+    }
+</script>

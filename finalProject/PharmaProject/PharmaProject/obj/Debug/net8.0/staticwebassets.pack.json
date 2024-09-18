@@ -1,0 +1,1921 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\PharmaProject.bundle.scp.css",
+      "PackagePath": "staticwebassets\\PharmaProject.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets2\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\assets2\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets2\\css\\icons.min.css",
+      "PackagePath": "staticwebassets\\assets2\\css\\icons.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets2\\css\\style.min.css",
+      "PackagePath": "staticwebassets\\assets2\\css\\style.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets2\\images\\about\\about-2.png",
+      "PackagePath": "staticwebassets\\assets2\\images\\about\\about-2.png"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets2\\images\\bg1.avif",
+      "PackagePath": "staticwebassets\\assets2\\images\\bg1.avif"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets2\\images\\bg10.jpeg",
+      "PackagePath": "staticwebassets\\assets2\\images\\bg10.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets2\\images\\bg11.jpg",
+      "PackagePath": "staticwebassets\\assets2\\images\\bg11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets2\\images\\bg12.jpg",
+      "PackagePath": "staticwebassets\\assets2\\images\\bg12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets2\\images\\bg13.jpg",
+      "PackagePath": "staticwebassets\\assets2\\images\\bg13.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets2\\images\\bg14.jpg",
+      "PackagePath": "staticwebassets\\assets2\\images\\bg14.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets2\\images\\bg15.webp",
+      "PackagePath": "staticwebassets\\assets2\\images\\bg15.webp"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets2\\images\\bg16.jpeg",
+      "PackagePath": "staticwebassets\\assets2\\images\\bg16.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets2\\images\\bg2.jpeg",
+      "PackagePath": "staticwebassets\\assets2\\images\\bg2.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets2\\images\\bg3.jpg",
+      "PackagePath": "staticwebassets\\assets2\\images\\bg3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets2\\images\\bg4.webp",
+      "PackagePath": "staticwebassets\\assets2\\images\\bg4.webp"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets2\\images\\bg5.jpg",
+      "PackagePath": "staticwebassets\\assets2\\images\\bg5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets2\\images\\bg6.jpeg",
+      "PackagePath": "staticwebassets\\assets2\\images\\bg6.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets2\\images\\bg7.png",
+      "PackagePath": "staticwebassets\\assets2\\images\\bg7.png"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets2\\images\\bg8.jpg.crdownload",
+      "PackagePath": "staticwebassets\\assets2\\images\\bg8.jpg.crdownload"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets2\\images\\bg9.jpg.crdownload",
+      "PackagePath": "staticwebassets\\assets2\\images\\bg9.jpg.crdownload"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets2\\images\\bg\\01.jpg",
+      "PackagePath": "staticwebassets\\assets2\\images\\bg\\01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets2\\images\\bg\\02.jpg",
+      "PackagePath": "staticwebassets\\assets2\\images\\bg\\02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets2\\images\\bg\\03.jpg",
+      "PackagePath": "staticwebassets\\assets2\\images\\bg\\03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets2\\images\\bg\\05.jpg",
+      "PackagePath": "staticwebassets\\assets2\\images\\bg\\05.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets2\\images\\bg\\about.jpg",
+      "PackagePath": "staticwebassets\\assets2\\images\\bg\\about.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets2\\images\\bg\\bg-chat.png",
+      "PackagePath": "staticwebassets\\assets2\\images\\bg\\bg-chat.png"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets2\\images\\bg\\bg-lines-one.png",
+      "PackagePath": "staticwebassets\\assets2\\images\\bg\\bg-lines-one.png"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets2\\images\\bg\\bg-profile.jpg",
+      "PackagePath": "staticwebassets\\assets2\\images\\bg\\bg-profile.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets2\\images\\bg\\department.jpg",
+      "PackagePath": "staticwebassets\\assets2\\images\\bg\\department.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets2\\images\\bg\\pharm01.jpg",
+      "PackagePath": "staticwebassets\\assets2\\images\\bg\\pharm01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets2\\images\\bg\\pharm02.jpg",
+      "PackagePath": "staticwebassets\\assets2\\images\\bg\\pharm02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets2\\images\\bg\\pharm03.jpg",
+      "PackagePath": "staticwebassets\\assets2\\images\\bg\\pharm03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets2\\images\\bg\\slider01.jpg",
+      "PackagePath": "staticwebassets\\assets2\\images\\bg\\slider01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets2\\images\\bg\\slider02.jpg",
+      "PackagePath": "staticwebassets\\assets2\\images\\bg\\slider02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets2\\images\\bg\\slider03.jpg",
+      "PackagePath": "staticwebassets\\assets2\\images\\bg\\slider03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets2\\images\\blog\\01.jpg",
+      "PackagePath": "staticwebassets\\assets2\\images\\blog\\01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets2\\images\\blog\\02.jpg",
+      "PackagePath": "staticwebassets\\assets2\\images\\blog\\02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets2\\images\\blog\\03.jpg",
+      "PackagePath": "staticwebassets\\assets2\\images\\blog\\03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets2\\images\\blog\\04.jpg",
+      "PackagePath": "staticwebassets\\assets2\\images\\blog\\04.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets2\\images\\blog\\05.jpg",
+      "PackagePath": "staticwebassets\\assets2\\images\\blog\\05.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets2\\images\\blog\\06.jpg",
+      "PackagePath": "staticwebassets\\assets2\\images\\blog\\06.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets2\\images\\blog\\07.jpg",
+      "PackagePath": "staticwebassets\\assets2\\images\\blog\\07.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets2\\images\\blog\\08.jpg",
+      "PackagePath": "staticwebassets\\assets2\\images\\blog\\08.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets2\\images\\blog\\09.jpg",
+      "PackagePath": "staticwebassets\\assets2\\images\\blog\\09.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets2\\images\\blog\\single.jpg",
+      "PackagePath": "staticwebassets\\assets2\\images\\blog\\single.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets2\\images\\cap.webp",
+      "PackagePath": "staticwebassets\\assets2\\images\\cap.webp"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets2\\images\\capbg.jpg",
+      "PackagePath": "staticwebassets\\assets2\\images\\capbg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets2\\images\\client\\01.jpg",
+      "PackagePath": "staticwebassets\\assets2\\images\\client\\01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets2\\images\\client\\02.jpg",
+      "PackagePath": "staticwebassets\\assets2\\images\\client\\02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets2\\images\\client\\03.jpg",
+      "PackagePath": "staticwebassets\\assets2\\images\\client\\03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets2\\images\\client\\04.jpg",
+      "PackagePath": "staticwebassets\\assets2\\images\\client\\04.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets2\\images\\client\\05.jpg",
+      "PackagePath": "staticwebassets\\assets2\\images\\client\\05.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets2\\images\\client\\06.jpg",
+      "PackagePath": "staticwebassets\\assets2\\images\\client\\06.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets2\\images\\client\\07.jpg",
+      "PackagePath": "staticwebassets\\assets2\\images\\client\\07.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets2\\images\\client\\08.jpg",
+      "PackagePath": "staticwebassets\\assets2\\images\\client\\08.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets2\\images\\client\\09.jpg",
+      "PackagePath": "staticwebassets\\assets2\\images\\client\\09.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets2\\images\\client\\10.jpg",
+      "PackagePath": "staticwebassets\\assets2\\images\\client\\10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets2\\images\\client\\amazon.png",
+      "PackagePath": "staticwebassets\\assets2\\images\\client\\amazon.png"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets2\\images\\client\\google.png",
+      "PackagePath": "staticwebassets\\assets2\\images\\client\\google.png"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets2\\images\\client\\lenovo.png",
+      "PackagePath": "staticwebassets\\assets2\\images\\client\\lenovo.png"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets2\\images\\client\\paypal.png",
+      "PackagePath": "staticwebassets\\assets2\\images\\client\\paypal.png"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets2\\images\\client\\shopify.png",
+      "PackagePath": "staticwebassets\\assets2\\images\\client\\shopify.png"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets2\\images\\client\\spotify.png",
+      "PackagePath": "staticwebassets\\assets2\\images\\client\\spotify.png"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets2\\images\\cta.jpg",
+      "PackagePath": "staticwebassets\\assets2\\images\\cta.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets2\\images\\doctors\\01.jpg",
+      "PackagePath": "staticwebassets\\assets2\\images\\doctors\\01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets2\\images\\doctors\\02.jpg",
+      "PackagePath": "staticwebassets\\assets2\\images\\doctors\\02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets2\\images\\doctors\\03.jpg",
+      "PackagePath": "staticwebassets\\assets2\\images\\doctors\\03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets2\\images\\doctors\\04.jpg",
+      "PackagePath": "staticwebassets\\assets2\\images\\doctors\\04.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets2\\images\\doctors\\05.jpg",
+      "PackagePath": "staticwebassets\\assets2\\images\\doctors\\05.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets2\\images\\doctors\\06.jpg",
+      "PackagePath": "staticwebassets\\assets2\\images\\doctors\\06.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets2\\images\\doctors\\07.jpg",
+      "PackagePath": "staticwebassets\\assets2\\images\\doctors\\07.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets2\\images\\doctors\\08.jpg",
+      "PackagePath": "staticwebassets\\assets2\\images\\doctors\\08.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets2\\images\\doctors\\dr-profile.png",
+      "PackagePath": "staticwebassets\\assets2\\images\\doctors\\dr-profile.png"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets2\\images\\doctors\\profile-bg.jpg",
+      "PackagePath": "staticwebassets\\assets2\\images\\doctors\\profile-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets2\\images\\hero.png",
+      "PackagePath": "staticwebassets\\assets2\\images\\hero.png"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets2\\images\\layouts\\landing-dark-rtl.png",
+      "PackagePath": "staticwebassets\\assets2\\images\\layouts\\landing-dark-rtl.png"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets2\\images\\layouts\\landing-dark.png",
+      "PackagePath": "staticwebassets\\assets2\\images\\layouts\\landing-dark.png"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets2\\images\\layouts\\landing-light-rtl.png",
+      "PackagePath": "staticwebassets\\assets2\\images\\layouts\\landing-light-rtl.png"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets2\\images\\layouts\\landing-light.png",
+      "PackagePath": "staticwebassets\\assets2\\images\\layouts\\landing-light.png"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets2\\images\\layouts\\light-dash.png",
+      "PackagePath": "staticwebassets\\assets2\\images\\layouts\\light-dash.png"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets2\\images\\lo7.png",
+      "PackagePath": "staticwebassets\\assets2\\images\\lo7.png"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets2\\images\\log.jpg",
+      "PackagePath": "staticwebassets\\assets2\\images\\log.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets2\\images\\log2.jpg",
+      "PackagePath": "staticwebassets\\assets2\\images\\log2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets2\\images\\log3.jpg",
+      "PackagePath": "staticwebassets\\assets2\\images\\log3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets2\\images\\log4.webp",
+      "PackagePath": "staticwebassets\\assets2\\images\\log4.webp"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets2\\images\\log5.img",
+      "PackagePath": "staticwebassets\\assets2\\images\\log5.img"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets2\\images\\log6.jpg",
+      "PackagePath": "staticwebassets\\assets2\\images\\log6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets2\\images\\logo-dark.png",
+      "PackagePath": "staticwebassets\\assets2\\images\\logo-dark.png"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets2\\images\\logo-icon.png",
+      "PackagePath": "staticwebassets\\assets2\\images\\logo-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets2\\images\\logo-light.png",
+      "PackagePath": "staticwebassets\\assets2\\images\\logo-light.png"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets2\\images\\logofinal.png",
+      "PackagePath": "staticwebassets\\assets2\\images\\logofinal.png"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets2\\images\\med.jpg",
+      "PackagePath": "staticwebassets\\assets2\\images\\med.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets2\\images\\order.jpg",
+      "PackagePath": "staticwebassets\\assets2\\images\\order.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets2\\images\\payment\\american.png",
+      "PackagePath": "staticwebassets\\assets2\\images\\payment\\american.png"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets2\\images\\payment\\discover.png",
+      "PackagePath": "staticwebassets\\assets2\\images\\payment\\discover.png"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets2\\images\\payment\\mastercard.png",
+      "PackagePath": "staticwebassets\\assets2\\images\\payment\\mastercard.png"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets2\\images\\payment\\rupay.png",
+      "PackagePath": "staticwebassets\\assets2\\images\\payment\\rupay.png"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets2\\images\\per1.jpeg",
+      "PackagePath": "staticwebassets\\assets2\\images\\per1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets2\\images\\per2.webp",
+      "PackagePath": "staticwebassets\\assets2\\images\\per2.webp"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets2\\images\\per3.jpg",
+      "PackagePath": "staticwebassets\\assets2\\images\\per3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets2\\images\\per4.jpg",
+      "PackagePath": "staticwebassets\\assets2\\images\\per4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets2\\images\\per5.jpg",
+      "PackagePath": "staticwebassets\\assets2\\images\\per5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets2\\images\\pharma.jpg",
+      "PackagePath": "staticwebassets\\assets2\\images\\pharma.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets2\\images\\pharmacy\\cancer.jpg",
+      "PackagePath": "staticwebassets\\assets2\\images\\pharmacy\\cancer.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets2\\images\\pharmacy\\cough.jpg",
+      "PackagePath": "staticwebassets\\assets2\\images\\pharmacy\\cough.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets2\\images\\pharmacy\\cta.jpg",
+      "PackagePath": "staticwebassets\\assets2\\images\\pharmacy\\cta.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets2\\images\\pharmacy\\delivery.jpg",
+      "PackagePath": "staticwebassets\\assets2\\images\\pharmacy\\delivery.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets2\\images\\pharmacy\\diabetes.jpg",
+      "PackagePath": "staticwebassets\\assets2\\images\\pharmacy\\diabetes.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets2\\images\\pharmacy\\doctor.jpg",
+      "PackagePath": "staticwebassets\\assets2\\images\\pharmacy\\doctor.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets2\\images\\pharmacy\\download.png",
+      "PackagePath": "staticwebassets\\assets2\\images\\pharmacy\\download.png"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets2\\images\\pharmacy\\heart.jpg",
+      "PackagePath": "staticwebassets\\assets2\\images\\pharmacy\\heart.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets2\\images\\pharmacy\\pain.jpg",
+      "PackagePath": "staticwebassets\\assets2\\images\\pharmacy\\pain.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets2\\images\\pharmacy\\sexual.jpg",
+      "PackagePath": "staticwebassets\\assets2\\images\\pharmacy\\sexual.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets2\\images\\pharmacy\\shop\\01.jpg",
+      "PackagePath": "staticwebassets\\assets2\\images\\pharmacy\\shop\\01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets2\\images\\pharmacy\\shop\\02.jpg",
+      "PackagePath": "staticwebassets\\assets2\\images\\pharmacy\\shop\\02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets2\\images\\pharmacy\\shop\\03.jpg",
+      "PackagePath": "staticwebassets\\assets2\\images\\pharmacy\\shop\\03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets2\\images\\pharmacy\\shop\\04.jpg",
+      "PackagePath": "staticwebassets\\assets2\\images\\pharmacy\\shop\\04.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets2\\images\\pharmacy\\shop\\ashwagandha.jpg",
+      "PackagePath": "staticwebassets\\assets2\\images\\pharmacy\\shop\\ashwagandha.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets2\\images\\pharmacy\\shop\\beby-products.jpg",
+      "PackagePath": "staticwebassets\\assets2\\images\\pharmacy\\shop\\beby-products.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets2\\images\\pharmacy\\shop\\diabend.jpg",
+      "PackagePath": "staticwebassets\\assets2\\images\\pharmacy\\shop\\diabend.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets2\\images\\pharmacy\\shop\\facewash.jpg",
+      "PackagePath": "staticwebassets\\assets2\\images\\pharmacy\\shop\\facewash.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets2\\images\\pharmacy\\shop\\handwash.jpg",
+      "PackagePath": "staticwebassets\\assets2\\images\\pharmacy\\shop\\handwash.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets2\\images\\pharmacy\\shop\\herbal-care.jpg",
+      "PackagePath": "staticwebassets\\assets2\\images\\pharmacy\\shop\\herbal-care.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets2\\images\\pharmacy\\shop\\kidney-tray.jpg",
+      "PackagePath": "staticwebassets\\assets2\\images\\pharmacy\\shop\\kidney-tray.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets2\\images\\pharmacy\\shop\\masks.jpg",
+      "PackagePath": "staticwebassets\\assets2\\images\\pharmacy\\shop\\masks.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets2\\images\\pharmacy\\shop\\medical-equptment.jpg",
+      "PackagePath": "staticwebassets\\assets2\\images\\pharmacy\\shop\\medical-equptment.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets2\\images\\pharmacy\\shop\\medicine.jpg",
+      "PackagePath": "staticwebassets\\assets2\\images\\pharmacy\\shop\\medicine.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets2\\images\\pharmacy\\shop\\medigrip.jpg",
+      "PackagePath": "staticwebassets\\assets2\\images\\pharmacy\\shop\\medigrip.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets2\\images\\pharmacy\\shop\\nicotex.jpg",
+      "PackagePath": "staticwebassets\\assets2\\images\\pharmacy\\shop\\nicotex.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets2\\images\\pharmacy\\shop\\praganews.jpg",
+      "PackagePath": "staticwebassets\\assets2\\images\\pharmacy\\shop\\praganews.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets2\\images\\pharmacy\\shop\\pulse-oximeter.jpg",
+      "PackagePath": "staticwebassets\\assets2\\images\\pharmacy\\shop\\pulse-oximeter.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets2\\images\\pharmacy\\shop\\sanitizer.jpg",
+      "PackagePath": "staticwebassets\\assets2\\images\\pharmacy\\shop\\sanitizer.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets2\\images\\pharmacy\\shop\\smoking-habit.jpg",
+      "PackagePath": "staticwebassets\\assets2\\images\\pharmacy\\shop\\smoking-habit.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets2\\images\\pharmacy\\shop\\stethoscope.jpg",
+      "PackagePath": "staticwebassets\\assets2\\images\\pharmacy\\shop\\stethoscope.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets2\\images\\pharmacy\\shop\\thermometer.jpg",
+      "PackagePath": "staticwebassets\\assets2\\images\\pharmacy\\shop\\thermometer.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets2\\images\\pharmacy\\skin.jpg",
+      "PackagePath": "staticwebassets\\assets2\\images\\pharmacy\\skin.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets2\\images\\pharmacy\\weight.jpg",
+      "PackagePath": "staticwebassets\\assets2\\images\\pharmacy\\weight.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets2\\images\\rep.jpg",
+      "PackagePath": "staticwebassets\\assets2\\images\\rep.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets2\\images\\rep2.webp",
+      "PackagePath": "staticwebassets\\assets2\\images\\rep2.webp"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets2\\images\\syr.webp",
+      "PackagePath": "staticwebassets\\assets2\\images\\syr.webp"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets2\\images\\syr2.webp",
+      "PackagePath": "staticwebassets\\assets2\\images\\syr2.webp"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets2\\images\\tab.jpg",
+      "PackagePath": "staticwebassets\\assets2\\images\\tab.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets2\\images\\tabs.jpg",
+      "PackagePath": "staticwebassets\\assets2\\images\\tabs.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets2\\images\\track.jpg",
+      "PackagePath": "staticwebassets\\assets2\\images\\track.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets2\\js\\app.js",
+      "PackagePath": "staticwebassets\\assets2\\js\\app.js"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets2\\js\\ckeditor.js",
+      "PackagePath": "staticwebassets\\assets2\\js\\ckeditor.js"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets2\\js\\contact.js",
+      "PackagePath": "staticwebassets\\assets2\\js\\contact.js"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets2\\js\\doctor-apexchart.init.js",
+      "PackagePath": "staticwebassets\\assets2\\js\\doctor-apexchart.init.js"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets2\\js\\easy_background.js",
+      "PackagePath": "staticwebassets\\assets2\\js\\easy_background.js"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets2\\js\\fullcalendar.init.js",
+      "PackagePath": "staticwebassets\\assets2\\js\\fullcalendar.init.js"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets2\\js\\patient-apexchart.init.js",
+      "PackagePath": "staticwebassets\\assets2\\js\\patient-apexchart.init.js"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets2\\js\\plugins.init.js",
+      "PackagePath": "staticwebassets\\assets2\\js\\plugins.init.js"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets2\\libs\\@iconscout\\unicons\\css\\line.css",
+      "PackagePath": "staticwebassets\\assets2\\libs\\@iconscout\\unicons\\css\\line.css"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets2\\libs\\apexcharts\\apexcharts.min.js",
+      "PackagePath": "staticwebassets\\assets2\\libs\\apexcharts\\apexcharts.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets2\\libs\\bootstrap\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\assets2\\libs\\bootstrap\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets2\\libs\\feather-icons\\feather.min.js",
+      "PackagePath": "staticwebassets\\assets2\\libs\\feather-icons\\feather.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets2\\libs\\fullcalendar\\locales-all.min.js",
+      "PackagePath": "staticwebassets\\assets2\\libs\\fullcalendar\\locales-all.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets2\\libs\\fullcalendar\\main.min.css",
+      "PackagePath": "staticwebassets\\assets2\\libs\\fullcalendar\\main.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets2\\libs\\fullcalendar\\main.min.js",
+      "PackagePath": "staticwebassets\\assets2\\libs\\fullcalendar\\main.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets2\\libs\\js-datepicker\\datepicker.min.css",
+      "PackagePath": "staticwebassets\\assets2\\libs\\js-datepicker\\datepicker.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets2\\libs\\js-datepicker\\datepicker.min.js",
+      "PackagePath": "staticwebassets\\assets2\\libs\\js-datepicker\\datepicker.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets2\\libs\\remixicon\\fonts\\remixicon.css",
+      "PackagePath": "staticwebassets\\assets2\\libs\\remixicon\\fonts\\remixicon.css"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets2\\libs\\remixicon\\fonts\\remixicondf6d.eot",
+      "PackagePath": "staticwebassets\\assets2\\libs\\remixicon\\fonts\\remixicondf6d.eot"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets2\\libs\\remixicon\\fonts\\remixicondf6d.svg",
+      "PackagePath": "staticwebassets\\assets2\\libs\\remixicon\\fonts\\remixicondf6d.svg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets2\\libs\\remixicon\\fonts\\remixicondf6d.ttf",
+      "PackagePath": "staticwebassets\\assets2\\libs\\remixicon\\fonts\\remixicondf6d.ttf"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets2\\libs\\remixicon\\fonts\\remixicondf6d.woff",
+      "PackagePath": "staticwebassets\\assets2\\libs\\remixicon\\fonts\\remixicondf6d.woff"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets2\\libs\\remixicon\\fonts\\remixicondf6d.woff2",
+      "PackagePath": "staticwebassets\\assets2\\libs\\remixicon\\fonts\\remixicondf6d.woff2"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets2\\libs\\simplebar\\simplebar.min.css",
+      "PackagePath": "staticwebassets\\assets2\\libs\\simplebar\\simplebar.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets2\\libs\\simplebar\\simplebar.min.js",
+      "PackagePath": "staticwebassets\\assets2\\libs\\simplebar\\simplebar.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets2\\libs\\tiny-slider\\min\\tiny-slider.js",
+      "PackagePath": "staticwebassets\\assets2\\libs\\tiny-slider\\min\\tiny-slider.js"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets2\\libs\\tiny-slider\\tiny-slider.css",
+      "PackagePath": "staticwebassets\\assets2\\libs\\tiny-slider\\tiny-slider.css"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets2\\libs\\tobii\\css\\tobii.min.css",
+      "PackagePath": "staticwebassets\\assets2\\libs\\tobii\\css\\tobii.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets2\\libs\\tobii\\js\\tobii.min.js",
+      "PackagePath": "staticwebassets\\assets2\\libs\\tobii\\js\\tobii.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets\\css\\all.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\all.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets\\css\\bootstrap-datepicker.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\bootstrap-datepicker.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets\\css\\bootstrap-icons.css",
+      "PackagePath": "staticwebassets\\assets\\css\\bootstrap-icons.css"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\assets\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets\\css\\dataTables.bootstrap5.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\dataTables.bootstrap5.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets\\css\\fonts\\bootstrap-icons0107.woff",
+      "PackagePath": "staticwebassets\\assets\\css\\fonts\\bootstrap-icons0107.woff"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets\\css\\fonts\\bootstrap-icons0107.woff2",
+      "PackagePath": "staticwebassets\\assets\\css\\fonts\\bootstrap-icons0107.woff2"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets\\css\\responsive.bootstrap5.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\responsive.bootstrap5.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets\\css\\style.css",
+      "PackagePath": "staticwebassets\\assets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets\\font\\PlusJakartaSans-VariableFont_wght.ttf",
+      "PackagePath": "staticwebassets\\assets\\font\\PlusJakartaSans-VariableFont_wght.ttf"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets\\js\\all.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\all.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets\\js\\apexcharts.js",
+      "PackagePath": "staticwebassets\\assets\\js\\apexcharts.js"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets\\js\\bootstrap-datepicker.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\bootstrap-datepicker.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets\\js\\dataTables.bootstrap5.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\dataTables.bootstrap5.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets\\js\\dataTables.responsive.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\dataTables.responsive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets\\js\\jquery-3.7.0.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery-3.7.0.js"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets\\js\\jquery.dataTables.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery.dataTables.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets\\js\\jquery.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets\\js\\jquery.slimscroll.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery.slimscroll.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets\\js\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets\\js\\popper.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\popper.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets\\js\\script.js",
+      "PackagePath": "staticwebassets\\assets\\js\\script.js"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets\\js\\togglepassword.js",
+      "PackagePath": "staticwebassets\\assets\\js\\togglepassword.js"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets\\webfonts\\fa-brands-400.ttf",
+      "PackagePath": "staticwebassets\\assets\\webfonts\\fa-brands-400.ttf"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets\\webfonts\\fa-brands-400.woff2",
+      "PackagePath": "staticwebassets\\assets\\webfonts\\fa-brands-400.woff2"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets\\webfonts\\fa-regular-400.ttf",
+      "PackagePath": "staticwebassets\\assets\\webfonts\\fa-regular-400.ttf"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets\\webfonts\\fa-regular-400.woff2",
+      "PackagePath": "staticwebassets\\assets\\webfonts\\fa-regular-400.woff2"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets\\webfonts\\fa-solid-900.ttf",
+      "PackagePath": "staticwebassets\\assets\\webfonts\\fa-solid-900.ttf"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets\\webfonts\\fa-solid-900.woff2",
+      "PackagePath": "staticwebassets\\assets\\webfonts\\fa-solid-900.woff2"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets\\webfonts\\fa-v4compatibility.ttf",
+      "PackagePath": "staticwebassets\\assets\\webfonts\\fa-v4compatibility.ttf"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\assets\\webfonts\\fa-v4compatibility.woff2",
+      "PackagePath": "staticwebassets\\assets\\webfonts\\fa-v4compatibility.woff2"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\images\\051ffcfa-2f47-4fe5-b495-ec019e2dbf2c_Manahil Zehra CV Final.pdf",
+      "PackagePath": "staticwebassets\\images\\051ffcfa-2f47-4fe5-b495-ec019e2dbf2c_Manahil Zehra CV Final.pdf"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\images\\0892773d-ba65-49f3-9d10-7c0ef2a38e85_Screenshot (186).png",
+      "PackagePath": "staticwebassets\\images\\0892773d-ba65-49f3-9d10-7c0ef2a38e85_Screenshot (186).png"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\images\\0a36d257-b10c-4b1e-88aa-b92d42e200bf_Manahil Zehra CV Final.pdf",
+      "PackagePath": "staticwebassets\\images\\0a36d257-b10c-4b1e-88aa-b92d42e200bf_Manahil Zehra CV Final.pdf"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\images\\106d7987-9865-493f-b5d7-da71fe00bfe0_Screenshot 2024-07-04 152941.png",
+      "PackagePath": "staticwebassets\\images\\106d7987-9865-493f-b5d7-da71fe00bfe0_Screenshot 2024-07-04 152941.png"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\images\\112606f1-919d-4efc-978c-8f33e5d9a660_chrome.exe",
+      "PackagePath": "staticwebassets\\images\\112606f1-919d-4efc-978c-8f33e5d9a660_chrome.exe"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\images\\147fee4c-f1f8-4281-a05f-4c3f2f045212_email.jpg",
+      "PackagePath": "staticwebassets\\images\\147fee4c-f1f8-4281-a05f-4c3f2f045212_email.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\images\\189d4b2a-b0ae-472f-9ac8-b0fbbe7f8602_AboutUs.jpg",
+      "PackagePath": "staticwebassets\\images\\189d4b2a-b0ae-472f-9ac8-b0fbbe7f8602_AboutUs.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\images\\1c364b27-8d8b-4c18-aab2-7838228c5e0b_Manahil Zehra CV Final.pdf",
+      "PackagePath": "staticwebassets\\images\\1c364b27-8d8b-4c18-aab2-7838228c5e0b_Manahil Zehra CV Final.pdf"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\images\\1ec6d390-00fb-41cb-9702-d5c39d50a337_Manahil Zehra CV Final.pdf",
+      "PackagePath": "staticwebassets\\images\\1ec6d390-00fb-41cb-9702-d5c39d50a337_Manahil Zehra CV Final.pdf"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\images\\20119e27-e0cd-4415-b985-e4b955dc227f_Manahil Zehra CV Final.pdf",
+      "PackagePath": "staticwebassets\\images\\20119e27-e0cd-4415-b985-e4b955dc227f_Manahil Zehra CV Final.pdf"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\images\\305fc43b-11c0-466f-a587-fd72a27acac3_Manahil Zehra CV Final.pdf",
+      "PackagePath": "staticwebassets\\images\\305fc43b-11c0-466f-a587-fd72a27acac3_Manahil Zehra CV Final.pdf"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\images\\35c84dab-1cab-4b1f-99fd-9fcc79c1ff77_Screenshot (185).png",
+      "PackagePath": "staticwebassets\\images\\35c84dab-1cab-4b1f-99fd-9fcc79c1ff77_Screenshot (185).png"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\images\\36b815b9-6385-4821-8b05-bc2c0a76f8b6_anime-girl-butterfly-tattoo-hd-wallpaper-uhdpaper.com-299@0@g.jpg",
+      "PackagePath": "staticwebassets\\images\\36b815b9-6385-4821-8b05-bc2c0a76f8b6_anime-girl-butterfly-tattoo-hd-wallpaper-uhdpaper.com-299@0@g.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\images\\3c1eedbf-93f4-4d8e-b71d-1d55ef490d6f_Screenshot (185).png",
+      "PackagePath": "staticwebassets\\images\\3c1eedbf-93f4-4d8e-b71d-1d55ef490d6f_Screenshot (185).png"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\images\\3fcba8d6-4233-44e6-870e-af9394116c40_Manahil Zehra CV Final.pdf",
+      "PackagePath": "staticwebassets\\images\\3fcba8d6-4233-44e6-870e-af9394116c40_Manahil Zehra CV Final.pdf"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\images\\406c3b93-92e6-4545-b11e-85eb571d246c_Manahil Zehra CV Final.pdf",
+      "PackagePath": "staticwebassets\\images\\406c3b93-92e6-4545-b11e-85eb571d246c_Manahil Zehra CV Final.pdf"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\images\\442ebbcf-6d97-4be9-8bac-c0490cb7125c_Manahil Zehra CV Final.pdf",
+      "PackagePath": "staticwebassets\\images\\442ebbcf-6d97-4be9-8bac-c0490cb7125c_Manahil Zehra CV Final.pdf"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\images\\4a0ee37b-ae2c-4bf3-9cab-242bc831ac9c_Manahil Zehra CV Final.pdf",
+      "PackagePath": "staticwebassets\\images\\4a0ee37b-ae2c-4bf3-9cab-242bc831ac9c_Manahil Zehra CV Final.pdf"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\images\\565df493-998d-46da-bd96-42531560e67d_Manahil Zehra CV Final.pdf",
+      "PackagePath": "staticwebassets\\images\\565df493-998d-46da-bd96-42531560e67d_Manahil Zehra CV Final.pdf"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\images\\56db2280-6548-4d1b-8609-b47cf4c1bac6_Abdur Rehman CV.pdf",
+      "PackagePath": "staticwebassets\\images\\56db2280-6548-4d1b-8609-b47cf4c1bac6_Abdur Rehman CV.pdf"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\images\\57d6ae73-d5c7-4695-b2ea-61963d630f31_Screenshot (180).png",
+      "PackagePath": "staticwebassets\\images\\57d6ae73-d5c7-4695-b2ea-61963d630f31_Screenshot (180).png"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\images\\69f0f9cf-0e81-4efd-823b-3ae18a7c76c4_Manahil Zehra CV Final.pdf",
+      "PackagePath": "staticwebassets\\images\\69f0f9cf-0e81-4efd-823b-3ae18a7c76c4_Manahil Zehra CV Final.pdf"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\images\\70453a9e-9eb4-4b40-a463-7eb3a8b6ae59_Manahil Zehra CV Final.pdf",
+      "PackagePath": "staticwebassets\\images\\70453a9e-9eb4-4b40-a463-7eb3a8b6ae59_Manahil Zehra CV Final.pdf"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\images\\756524e9-d418-4129-8151-44a401ec3d89_email.jpg",
+      "PackagePath": "staticwebassets\\images\\756524e9-d418-4129-8151-44a401ec3d89_email.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\images\\79c1d2a2-78ac-4676-9fb3-383577191037_Manahil Zehra CV Final.pdf",
+      "PackagePath": "staticwebassets\\images\\79c1d2a2-78ac-4676-9fb3-383577191037_Manahil Zehra CV Final.pdf"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\images\\7cef2f5d-93c5-4749-9a3d-fb548cc6ff48_Screenshot (192).png",
+      "PackagePath": "staticwebassets\\images\\7cef2f5d-93c5-4749-9a3d-fb548cc6ff48_Screenshot (192).png"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\images\\86093efc-5b34-4ca5-805f-950a22198072_Manahil Zehra CV Final.pdf",
+      "PackagePath": "staticwebassets\\images\\86093efc-5b34-4ca5-805f-950a22198072_Manahil Zehra CV Final.pdf"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\images\\9177c3f8-fbc9-4118-9e50-610334122455_Manahil Zehra CV Final.pdf",
+      "PackagePath": "staticwebassets\\images\\9177c3f8-fbc9-4118-9e50-610334122455_Manahil Zehra CV Final.pdf"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\images\\91954c76-f63b-4b87-9026-a87e8141825c_Manahil Zehra CV Final.pdf",
+      "PackagePath": "staticwebassets\\images\\91954c76-f63b-4b87-9026-a87e8141825c_Manahil Zehra CV Final.pdf"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\images\\968fb6c4-6397-48e5-a7f6-121e9bcc3c6c_Screenshot (180).png",
+      "PackagePath": "staticwebassets\\images\\968fb6c4-6397-48e5-a7f6-121e9bcc3c6c_Screenshot (180).png"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\images\\9be33775-4135-4884-813f-9c0d1afd4ef1_Manahil Zehra CV Final.pdf",
+      "PackagePath": "staticwebassets\\images\\9be33775-4135-4884-813f-9c0d1afd4ef1_Manahil Zehra CV Final.pdf"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\images\\a0fb363f-1a54-45b9-a67e-a4fb1dba8cb1_Manahil Zehra CV Final.pdf",
+      "PackagePath": "staticwebassets\\images\\a0fb363f-1a54-45b9-a67e-a4fb1dba8cb1_Manahil Zehra CV Final.pdf"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\images\\a310f8e9-f8f9-48e1-99e8-2cd2a1d9dd9d_XYZ Pharmaceutical.docx",
+      "PackagePath": "staticwebassets\\images\\a310f8e9-f8f9-48e1-99e8-2cd2a1d9dd9d_XYZ Pharmaceutical.docx"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\images\\a6ac285f-fd04-48c4-90d6-445f2569091a_Screenshot (186).png",
+      "PackagePath": "staticwebassets\\images\\a6ac285f-fd04-48c4-90d6-445f2569091a_Screenshot (186).png"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\images\\ac7d49f8-9e5d-4556-8a0c-2cdf6971b9cb_Manahil Zehra CV Final.pdf",
+      "PackagePath": "staticwebassets\\images\\ac7d49f8-9e5d-4556-8a0c-2cdf6971b9cb_Manahil Zehra CV Final.pdf"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\images\\ad92c271-3461-4539-8b58-b1d90c716f1a_Manahil Zehra CV Final.pdf",
+      "PackagePath": "staticwebassets\\images\\ad92c271-3461-4539-8b58-b1d90c716f1a_Manahil Zehra CV Final.pdf"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\images\\bd7510a3-1571-477f-abad-0585ef7d1a2e_Abdur Rehman CV.pdf",
+      "PackagePath": "staticwebassets\\images\\bd7510a3-1571-477f-abad-0585ef7d1a2e_Abdur Rehman CV.pdf"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\images\\c23bcb15-8867-4c39-a93b-d44fa19d8506_Screenshot (185).png",
+      "PackagePath": "staticwebassets\\images\\c23bcb15-8867-4c39-a93b-d44fa19d8506_Screenshot (185).png"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\images\\c534845c-ae36-47a5-89b2-c81961371c62_Manahil Zehra CV Final.pdf",
+      "PackagePath": "staticwebassets\\images\\c534845c-ae36-47a5-89b2-c81961371c62_Manahil Zehra CV Final.pdf"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\images\\d4b33386-1021-4910-9208-28d7072dfd3c_Manahil Zehra CV Final.pdf",
+      "PackagePath": "staticwebassets\\images\\d4b33386-1021-4910-9208-28d7072dfd3c_Manahil Zehra CV Final.pdf"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\images\\d666f128-3419-430b-b3a4-09ced1054125_Manahil Zehra CV Final.pdf",
+      "PackagePath": "staticwebassets\\images\\d666f128-3419-430b-b3a4-09ced1054125_Manahil Zehra CV Final.pdf"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\images\\d6872bee-4677-41aa-b780-6a0a5529f997_Manahil Zehra CV Final.pdf",
+      "PackagePath": "staticwebassets\\images\\d6872bee-4677-41aa-b780-6a0a5529f997_Manahil Zehra CV Final.pdf"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\images\\d9b8793d-054a-40dd-a3d3-f407e9293a61_XYZ Pharmaceutical.docx",
+      "PackagePath": "staticwebassets\\images\\d9b8793d-054a-40dd-a3d3-f407e9293a61_XYZ Pharmaceutical.docx"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\images\\eb21b674-b3fb-477d-9ba9-ff2fbf2b53b9_Manahil Zehra CV Final.pdf",
+      "PackagePath": "staticwebassets\\images\\eb21b674-b3fb-477d-9ba9-ff2fbf2b53b9_Manahil Zehra CV Final.pdf"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\images\\eec72cc9-19ba-4d36-ac74-2449336a2fff_Screenshot 2024-07-04 152941.png",
+      "PackagePath": "staticwebassets\\images\\eec72cc9-19ba-4d36-ac74-2449336a2fff_Screenshot 2024-07-04 152941.png"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\images\\f190105c-cbdb-4e9b-b80f-c0e079e3a668_Screenshot (187).png",
+      "PackagePath": "staticwebassets\\images\\f190105c-cbdb-4e9b-b80f-c0e079e3a668_Screenshot (187).png"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\images\\f33e5ebe-ca9e-484d-80a7-0116e30d5144_Marksheet Kumail.jpg",
+      "PackagePath": "staticwebassets\\images\\f33e5ebe-ca9e-484d-80a7-0116e30d5144_Marksheet Kumail.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\images\\f91fccd2-c252-437f-b124-d5ba73bc147a_AboutUs.jpg",
+      "PackagePath": "staticwebassets\\images\\f91fccd2-c252-437f-b124-d5ba73bc147a_AboutUs.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\images\\fc2e0b63-b47c-4c08-ba3a-349a7d569966_Screenshot (190).png",
+      "PackagePath": "staticwebassets\\images\\fc2e0b63-b47c-4c08-ba3a-349a7d569966_Screenshot (190).png"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\images\\ff825317-1474-47bc-b559-37b111500661_Screenshot (191).png",
+      "PackagePath": "staticwebassets\\images\\ff825317-1474-47bc-b559-37b111500661_Screenshot (191).png"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\images\\logo png.png",
+      "PackagePath": "staticwebassets\\images\\logo png.png"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\images\\logo2.png",
+      "PackagePath": "staticwebassets\\images\\logo2.png"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\libs\\apexcharts\\apexcharts.min.js",
+      "PackagePath": "staticwebassets\\libs\\apexcharts\\apexcharts.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\libs\\bootstrap\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\libs\\bootstrap\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\libs\\css\\bootstrap-dark-rtl.min.css",
+      "PackagePath": "staticwebassets\\libs\\css\\bootstrap-dark-rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\libs\\css\\bootstrap-dark.min.css",
+      "PackagePath": "staticwebassets\\libs\\css\\bootstrap-dark.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\libs\\css\\bootstrap-rtl.min.css",
+      "PackagePath": "staticwebassets\\libs\\css\\bootstrap-rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\libs\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\libs\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\libs\\css\\icons.min.css",
+      "PackagePath": "staticwebassets\\libs\\css\\icons.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\libs\\css\\style-dark-rtl.min.css",
+      "PackagePath": "staticwebassets\\libs\\css\\style-dark-rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\libs\\css\\style-dark.min.css",
+      "PackagePath": "staticwebassets\\libs\\css\\style-dark.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\libs\\css\\style-rtl.min.css",
+      "PackagePath": "staticwebassets\\libs\\css\\style-rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\libs\\css\\style.min.css",
+      "PackagePath": "staticwebassets\\libs\\css\\style.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\libs\\feather-icons\\feather.min.js",
+      "PackagePath": "staticwebassets\\libs\\feather-icons\\feather.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\libs\\font-awesome\\6.4.2\\css\\all.min.css",
+      "PackagePath": "staticwebassets\\libs\\font-awesome\\6.4.2\\css\\all.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\libs\\fullcalendar\\locales-all.min.js",
+      "PackagePath": "staticwebassets\\libs\\fullcalendar\\locales-all.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\libs\\fullcalendar\\main.min.css",
+      "PackagePath": "staticwebassets\\libs\\fullcalendar\\main.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\libs\\fullcalendar\\main.min.js",
+      "PackagePath": "staticwebassets\\libs\\fullcalendar\\main.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\libs\\iconscout\\unicons\\css\\line.css",
+      "PackagePath": "staticwebassets\\libs\\iconscout\\unicons\\css\\line.css"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\libs\\images\\ab02.jpg",
+      "PackagePath": "staticwebassets\\libs\\images\\ab02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\libs\\images\\anas.jpg",
+      "PackagePath": "staticwebassets\\libs\\images\\anas.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\libs\\images\\asp.webp",
+      "PackagePath": "staticwebassets\\libs\\images\\asp.webp"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\libs\\images\\bg1.avif",
+      "PackagePath": "staticwebassets\\libs\\images\\bg1.avif"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\libs\\images\\bg\\03.jpg",
+      "PackagePath": "staticwebassets\\libs\\images\\bg\\03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\libs\\images\\bg\\05.jpg",
+      "PackagePath": "staticwebassets\\libs\\images\\bg\\05.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\libs\\images\\bg\\bg-chat.png",
+      "PackagePath": "staticwebassets\\libs\\images\\bg\\bg-chat.png"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\libs\\images\\bg\\bg-lines-one.png",
+      "PackagePath": "staticwebassets\\libs\\images\\bg\\bg-lines-one.png"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\libs\\images\\bg\\bg-profile.jpg",
+      "PackagePath": "staticwebassets\\libs\\images\\bg\\bg-profile.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\libs\\images\\blog\\01.jpg",
+      "PackagePath": "staticwebassets\\libs\\images\\blog\\01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\libs\\images\\blog\\02.jpg",
+      "PackagePath": "staticwebassets\\libs\\images\\blog\\02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\libs\\images\\blog\\03.jpg",
+      "PackagePath": "staticwebassets\\libs\\images\\blog\\03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\libs\\images\\blog\\04.jpg",
+      "PackagePath": "staticwebassets\\libs\\images\\blog\\04.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\libs\\images\\blog\\05.jpg",
+      "PackagePath": "staticwebassets\\libs\\images\\blog\\05.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\libs\\images\\blog\\06.jpg",
+      "PackagePath": "staticwebassets\\libs\\images\\blog\\06.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\libs\\images\\blog\\07.jpg",
+      "PackagePath": "staticwebassets\\libs\\images\\blog\\07.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\libs\\images\\blog\\08.jpg",
+      "PackagePath": "staticwebassets\\libs\\images\\blog\\08.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\libs\\images\\blog\\single.jpg",
+      "PackagePath": "staticwebassets\\libs\\images\\blog\\single.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\libs\\images\\can.png",
+      "PackagePath": "staticwebassets\\libs\\images\\can.png"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\libs\\images\\cap.jpg",
+      "PackagePath": "staticwebassets\\libs\\images\\cap.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\libs\\images\\cap1.jpg",
+      "PackagePath": "staticwebassets\\libs\\images\\cap1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\libs\\images\\cap10.webp",
+      "PackagePath": "staticwebassets\\libs\\images\\cap10.webp"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\libs\\images\\cap11.jpg",
+      "PackagePath": "staticwebassets\\libs\\images\\cap11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\libs\\images\\cap2.jpeg",
+      "PackagePath": "staticwebassets\\libs\\images\\cap2.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\libs\\images\\cap3.webp",
+      "PackagePath": "staticwebassets\\libs\\images\\cap3.webp"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\libs\\images\\cap4.webp",
+      "PackagePath": "staticwebassets\\libs\\images\\cap4.webp"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\libs\\images\\cap5.jpg",
+      "PackagePath": "staticwebassets\\libs\\images\\cap5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\libs\\images\\cap6.jpg",
+      "PackagePath": "staticwebassets\\libs\\images\\cap6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\libs\\images\\cap7.jpg",
+      "PackagePath": "staticwebassets\\libs\\images\\cap7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\libs\\images\\cap8.webp",
+      "PackagePath": "staticwebassets\\libs\\images\\cap8.webp"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\libs\\images\\cap9.jpg",
+      "PackagePath": "staticwebassets\\libs\\images\\cap9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\libs\\images\\client\\01.jpg",
+      "PackagePath": "staticwebassets\\libs\\images\\client\\01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\libs\\images\\client\\02.jpg",
+      "PackagePath": "staticwebassets\\libs\\images\\client\\02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\libs\\images\\client\\03.jpg",
+      "PackagePath": "staticwebassets\\libs\\images\\client\\03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\libs\\images\\client\\04.jpg",
+      "PackagePath": "staticwebassets\\libs\\images\\client\\04.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\libs\\images\\client\\05.jpg",
+      "PackagePath": "staticwebassets\\libs\\images\\client\\05.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\libs\\images\\client\\06.jpg",
+      "PackagePath": "staticwebassets\\libs\\images\\client\\06.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\libs\\images\\client\\07.jpg",
+      "PackagePath": "staticwebassets\\libs\\images\\client\\07.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\libs\\images\\client\\08.jpg",
+      "PackagePath": "staticwebassets\\libs\\images\\client\\08.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\libs\\images\\client\\09.jpg",
+      "PackagePath": "staticwebassets\\libs\\images\\client\\09.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\libs\\images\\client\\10.jpg",
+      "PackagePath": "staticwebassets\\libs\\images\\client\\10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\libs\\images\\client\\amazon.png",
+      "PackagePath": "staticwebassets\\libs\\images\\client\\amazon.png"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\libs\\images\\client\\google.png",
+      "PackagePath": "staticwebassets\\libs\\images\\client\\google.png"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\libs\\images\\client\\lenovo.png",
+      "PackagePath": "staticwebassets\\libs\\images\\client\\lenovo.png"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\libs\\images\\client\\paypal.png",
+      "PackagePath": "staticwebassets\\libs\\images\\client\\paypal.png"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\libs\\images\\client\\shopify.png",
+      "PackagePath": "staticwebassets\\libs\\images\\client\\shopify.png"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\libs\\images\\client\\spotify.png",
+      "PackagePath": "staticwebassets\\libs\\images\\client\\spotify.png"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\libs\\images\\covid.webp",
+      "PackagePath": "staticwebassets\\libs\\images\\covid.webp"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\libs\\images\\doctors\\01.jpg",
+      "PackagePath": "staticwebassets\\libs\\images\\doctors\\01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\libs\\images\\doctors\\02.jpg",
+      "PackagePath": "staticwebassets\\libs\\images\\doctors\\02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\libs\\images\\doctors\\03.jpg",
+      "PackagePath": "staticwebassets\\libs\\images\\doctors\\03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\libs\\images\\doctors\\04.jpg",
+      "PackagePath": "staticwebassets\\libs\\images\\doctors\\04.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\libs\\images\\doctors\\05.jpg",
+      "PackagePath": "staticwebassets\\libs\\images\\doctors\\05.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\libs\\images\\doctors\\06.jpg",
+      "PackagePath": "staticwebassets\\libs\\images\\doctors\\06.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\libs\\images\\doctors\\07.jpg",
+      "PackagePath": "staticwebassets\\libs\\images\\doctors\\07.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\libs\\images\\doctors\\08.jpg",
+      "PackagePath": "staticwebassets\\libs\\images\\doctors\\08.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\libs\\images\\doctors\\09.jpg",
+      "PackagePath": "staticwebassets\\libs\\images\\doctors\\09.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\libs\\images\\doctors\\10.jpg",
+      "PackagePath": "staticwebassets\\libs\\images\\doctors\\10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\libs\\images\\epi.jpeg",
+      "PackagePath": "staticwebassets\\libs\\images\\epi.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\libs\\images\\ins.jpeg",
+      "PackagePath": "staticwebassets\\libs\\images\\ins.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\libs\\images\\lan.webp",
+      "PackagePath": "staticwebassets\\libs\\images\\lan.webp"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\libs\\images\\language\\american.png",
+      "PackagePath": "staticwebassets\\libs\\images\\language\\american.png"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\libs\\images\\language\\chinese.png",
+      "PackagePath": "staticwebassets\\libs\\images\\language\\chinese.png"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\libs\\images\\language\\european.png",
+      "PackagePath": "staticwebassets\\libs\\images\\language\\european.png"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\libs\\images\\language\\indian.png",
+      "PackagePath": "staticwebassets\\libs\\images\\language\\indian.png"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\libs\\images\\language\\japanese.png",
+      "PackagePath": "staticwebassets\\libs\\images\\language\\japanese.png"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\libs\\images\\language\\russian.png",
+      "PackagePath": "staticwebassets\\libs\\images\\language\\russian.png"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\libs\\images\\layouts\\dark-dash-rtl.png",
+      "PackagePath": "staticwebassets\\libs\\images\\layouts\\dark-dash-rtl.png"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\libs\\images\\layouts\\dark-dash.png",
+      "PackagePath": "staticwebassets\\libs\\images\\layouts\\dark-dash.png"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\libs\\images\\layouts\\landing-light.png",
+      "PackagePath": "staticwebassets\\libs\\images\\layouts\\landing-light.png"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\libs\\images\\layouts\\light-dash-rtl.png",
+      "PackagePath": "staticwebassets\\libs\\images\\layouts\\light-dash-rtl.png"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\libs\\images\\layouts\\light-dash.png",
+      "PackagePath": "staticwebassets\\libs\\images\\layouts\\light-dash.png"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\libs\\images\\logo-dark.png",
+      "PackagePath": "staticwebassets\\libs\\images\\logo-dark.png"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\libs\\images\\logo-icon.png",
+      "PackagePath": "staticwebassets\\libs\\images\\logo-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\libs\\images\\logo-light.png",
+      "PackagePath": "staticwebassets\\libs\\images\\logo-light.png"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\libs\\images\\med.webp",
+      "PackagePath": "staticwebassets\\libs\\images\\med.webp"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\libs\\images\\med2.png",
+      "PackagePath": "staticwebassets\\libs\\images\\med2.png"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\libs\\images\\mor.jpg",
+      "PackagePath": "staticwebassets\\libs\\images\\mor.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\libs\\images\\mor2.jpg",
+      "PackagePath": "staticwebassets\\libs\\images\\mor2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\libs\\images\\pen.jpg",
+      "PackagePath": "staticwebassets\\libs\\images\\pen.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\libs\\images\\per1.jpg",
+      "PackagePath": "staticwebassets\\libs\\images\\per1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\libs\\images\\per2.jpg",
+      "PackagePath": "staticwebassets\\libs\\images\\per2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\libs\\images\\per3.jpeg",
+      "PackagePath": "staticwebassets\\libs\\images\\per3.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\libs\\images\\per4.jpeg",
+      "PackagePath": "staticwebassets\\libs\\images\\per4.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\libs\\images\\per5.jpg",
+      "PackagePath": "staticwebassets\\libs\\images\\per5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\libs\\images\\pharma.jpg",
+      "PackagePath": "staticwebassets\\libs\\images\\pharma.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\libs\\images\\pharmacy\\cancer.jpg",
+      "PackagePath": "staticwebassets\\libs\\images\\pharmacy\\cancer.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\libs\\images\\pharmacy\\cart.png",
+      "PackagePath": "staticwebassets\\libs\\images\\pharmacy\\cart.png"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\libs\\images\\pharmacy\\cough.jpg",
+      "PackagePath": "staticwebassets\\libs\\images\\pharmacy\\cough.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\libs\\images\\pharmacy\\diabetes.jpg",
+      "PackagePath": "staticwebassets\\libs\\images\\pharmacy\\diabetes.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\libs\\images\\pharmacy\\heart.jpg",
+      "PackagePath": "staticwebassets\\libs\\images\\pharmacy\\heart.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\libs\\images\\pharmacy\\pain.jpg",
+      "PackagePath": "staticwebassets\\libs\\images\\pharmacy\\pain.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\libs\\images\\pharmacy\\sexual.jpg",
+      "PackagePath": "staticwebassets\\libs\\images\\pharmacy\\sexual.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\libs\\images\\pharmacy\\shop\\01.jpg",
+      "PackagePath": "staticwebassets\\libs\\images\\pharmacy\\shop\\01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\libs\\images\\pharmacy\\shop\\02.jpg",
+      "PackagePath": "staticwebassets\\libs\\images\\pharmacy\\shop\\02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\libs\\images\\pharmacy\\shop\\03.jpg",
+      "PackagePath": "staticwebassets\\libs\\images\\pharmacy\\shop\\03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\libs\\images\\pharmacy\\shop\\04.jpg",
+      "PackagePath": "staticwebassets\\libs\\images\\pharmacy\\shop\\04.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\libs\\images\\pharmacy\\shop\\ashwagandha.jpg",
+      "PackagePath": "staticwebassets\\libs\\images\\pharmacy\\shop\\ashwagandha.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\libs\\images\\pharmacy\\shop\\beby-products.jpg",
+      "PackagePath": "staticwebassets\\libs\\images\\pharmacy\\shop\\beby-products.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\libs\\images\\pharmacy\\shop\\diabend.jpg",
+      "PackagePath": "staticwebassets\\libs\\images\\pharmacy\\shop\\diabend.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\libs\\images\\pharmacy\\shop\\facewash.jpg",
+      "PackagePath": "staticwebassets\\libs\\images\\pharmacy\\shop\\facewash.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\libs\\images\\pharmacy\\shop\\handwash.jpg",
+      "PackagePath": "staticwebassets\\libs\\images\\pharmacy\\shop\\handwash.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\libs\\images\\pharmacy\\shop\\herbal-care.jpg",
+      "PackagePath": "staticwebassets\\libs\\images\\pharmacy\\shop\\herbal-care.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\libs\\images\\pharmacy\\shop\\kidney-tray.jpg",
+      "PackagePath": "staticwebassets\\libs\\images\\pharmacy\\shop\\kidney-tray.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\libs\\images\\pharmacy\\shop\\masks.jpg",
+      "PackagePath": "staticwebassets\\libs\\images\\pharmacy\\shop\\masks.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\libs\\images\\pharmacy\\shop\\medical-equptment.jpg",
+      "PackagePath": "staticwebassets\\libs\\images\\pharmacy\\shop\\medical-equptment.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\libs\\images\\pharmacy\\shop\\medicine.jpg",
+      "PackagePath": "staticwebassets\\libs\\images\\pharmacy\\shop\\medicine.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\libs\\images\\pharmacy\\shop\\medigrip.jpg",
+      "PackagePath": "staticwebassets\\libs\\images\\pharmacy\\shop\\medigrip.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\libs\\images\\pharmacy\\shop\\nicotex.jpg",
+      "PackagePath": "staticwebassets\\libs\\images\\pharmacy\\shop\\nicotex.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\libs\\images\\pharmacy\\shop\\pulse-oximeter.jpg",
+      "PackagePath": "staticwebassets\\libs\\images\\pharmacy\\shop\\pulse-oximeter.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\libs\\images\\pharmacy\\shop\\sanitizer.jpg",
+      "PackagePath": "staticwebassets\\libs\\images\\pharmacy\\shop\\sanitizer.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\libs\\images\\pharmacy\\shop\\smoking-habit.jpg",
+      "PackagePath": "staticwebassets\\libs\\images\\pharmacy\\shop\\smoking-habit.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\libs\\images\\pharmacy\\shop\\stethoscope.jpg",
+      "PackagePath": "staticwebassets\\libs\\images\\pharmacy\\shop\\stethoscope.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\libs\\images\\pharmacy\\shop\\thermometer.jpg",
+      "PackagePath": "staticwebassets\\libs\\images\\pharmacy\\shop\\thermometer.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\libs\\images\\pharmacy\\skin.jpg",
+      "PackagePath": "staticwebassets\\libs\\images\\pharmacy\\skin.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\libs\\images\\pharmacy\\weight.jpg",
+      "PackagePath": "staticwebassets\\libs\\images\\pharmacy\\weight.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\libs\\images\\prof.png",
+      "PackagePath": "staticwebassets\\libs\\images\\prof.png"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\libs\\images\\profile.png",
+      "PackagePath": "staticwebassets\\libs\\images\\profile.png"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\libs\\images\\sal.webp",
+      "PackagePath": "staticwebassets\\libs\\images\\sal.webp"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\libs\\images\\subscribe.png",
+      "PackagePath": "staticwebassets\\libs\\images\\subscribe.png"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\libs\\images\\syr.jpg",
+      "PackagePath": "staticwebassets\\libs\\images\\syr.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\libs\\images\\tab2.jpg",
+      "PackagePath": "staticwebassets\\libs\\images\\tab2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\libs\\images\\tube.jpg",
+      "PackagePath": "staticwebassets\\libs\\images\\tube.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\libs\\js-datepicker\\datepicker.min.css",
+      "PackagePath": "staticwebassets\\libs\\js-datepicker\\datepicker.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\libs\\js-datepicker\\datepicker.min.js",
+      "PackagePath": "staticwebassets\\libs\\js-datepicker\\datepicker.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\libs\\js\\admin-apexchart.init.js",
+      "PackagePath": "staticwebassets\\libs\\js\\admin-apexchart.init.js"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\libs\\js\\app.js",
+      "PackagePath": "staticwebassets\\libs\\js\\app.js"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\libs\\js\\ckeditor.js",
+      "PackagePath": "staticwebassets\\libs\\js\\ckeditor.js"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\libs\\js\\fullcalendar.init.js",
+      "PackagePath": "staticwebassets\\libs\\js\\fullcalendar.init.js"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\libs\\js\\plugins.init.js",
+      "PackagePath": "staticwebassets\\libs\\js\\plugins.init.js"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\libs\\remixicon\\fonts\\remixicon.css",
+      "PackagePath": "staticwebassets\\libs\\remixicon\\fonts\\remixicon.css"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\libs\\remixicon\\fonts\\remixicondf6d.eot",
+      "PackagePath": "staticwebassets\\libs\\remixicon\\fonts\\remixicondf6d.eot"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\libs\\remixicon\\fonts\\remixicondf6d.svg",
+      "PackagePath": "staticwebassets\\libs\\remixicon\\fonts\\remixicondf6d.svg"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\libs\\remixicon\\fonts\\remixicondf6d.ttf",
+      "PackagePath": "staticwebassets\\libs\\remixicon\\fonts\\remixicondf6d.ttf"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\libs\\remixicon\\fonts\\remixicondf6d.woff",
+      "PackagePath": "staticwebassets\\libs\\remixicon\\fonts\\remixicondf6d.woff"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\libs\\remixicon\\fonts\\remixicondf6d.woff2",
+      "PackagePath": "staticwebassets\\libs\\remixicon\\fonts\\remixicondf6d.woff2"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\libs\\simplebar\\simplebar.min.css",
+      "PackagePath": "staticwebassets\\libs\\simplebar\\simplebar.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\libs\\simplebar\\simplebar.min.js",
+      "PackagePath": "staticwebassets\\libs\\simplebar\\simplebar.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\libs\\tiny-slider\\min\\tiny-slider.js",
+      "PackagePath": "staticwebassets\\libs\\tiny-slider\\min\\tiny-slider.js"
+    },
+    {
+      "Id": "C:\\Users\\kumai\\source\\repos\\Final Project\\PharmaProject\\PharmaProject\\wwwroot\\libs\\tiny-slider\\tiny-slider.css",
+      "PackagePath": "staticwebassets\\libs\\tiny-slider\\tiny-slider.css"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.PharmaProject.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.PharmaProject.props",
+      "PackagePath": "build\\PharmaProject.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.PharmaProject.props",
+      "PackagePath": "buildMultiTargeting\\PharmaProject.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.PharmaProject.props",
+      "PackagePath": "buildTransitive\\PharmaProject.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

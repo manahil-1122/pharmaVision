@@ -1,0 +1,79 @@
+﻿@model OrderStatus;
+
+
+<div class="container-fluid mt-5 mb-4 animate__animated  animate__fadeIn ">
+    <div class="row">
+       <div class="col-md-2"></div>
+        <div class="col-md-10">
+            <div class="card shadow-lg border-0">
+                @if (TempData["SuccessMessage"] != null)
+                {
+                    <div id="successMessage" class="alert alert-info">
+                        @TempData["SuccessMessage"]
+                    </div>
+                }
+                <div class="card-header text-white text-center" style="background-color: #2F2F75;">
+                    
+
+                    <h4>Order Status Information</h4>
+                </div>
+                <div class="card-body p-4">
+                    <div class="row mb-4">
+                        <div class="col text-center">
+                            <h4>Order Status</h4>
+                            <div class="spinner-border text-primary" role="status">
+                                <span class="visually-hidden">Loading...</span>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-muted text-center mb-4">
+                        Order status refers to the current state or phase of a customer's order as it progresses through various stages of processing, fulfillment, and delivery. This status helps both companies and administrators keep track of where an order is in the system and what actions.Monitoring the order status helps ensure that companies receive timely updates about their purchases, and it allows administrators to manage and resolve any issues that may arise during the order fulfillment process.
+                    </p>
+                    <form asp-action="Create" method="post">
+                         <input type="hidden" asp-for="OrderId" />
+                        <input type="hidden" asp-for="UserId" /> 
+
+                        <div class="row mb-3">
+                            <div class="col-md-1"></div>
+                            <div class="col-md-5">
+                                <label asp-for="OrdNum" class="form-label">Order Number</label>
+                                <input asp-for="OrdNum" id="name" type="number" class="form-control" placeholder="Number">
+                            </div>
+                            <div class="col-md-5">
+                                <label asp-for="CompName" class="form-label">Company Name</label>
+                                <input asp-for="CompName" id="name2" type="text" class="form-control" placeholder="Name">
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <div class="col-md-1"></div>
+                            <div class="col-md-5">
+                                <label asp-for="MedType" class="form-label">Medicine Type</label>
+                                <input asp-for="MedType" id="email" type="text" class="form-control" placeholder="Type">
+                            </div>
+                            <div class="col-md-5">
+                                <label asp-for="Name" class="form-label">Medicine Name</label>
+                                <input asp-for="Name" id="number" type="text" class="form-control" placeholder="Name">
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <div class="col-md-1"></div>
+                            <div class="col-md-5">
+                                <label asp-for="Status" class="form-label">Current Status Of Order</label>
+                                <input asp-for="Status" type="text" class="form-control" placeholder="Status">
+                            </div>
+                            <div class="col-md-5">
+                                <label asp-for="Time" class="form-label">Expected Date Of Delivery</label>
+                                <input asp-for="Time" type="date" class="form-control" placeholder="Date">
+                            </div>
+                        </div>
+                        <div class="text-center pt-3">
+                            <button type="submit" class="btn btn-primary btn-lg">Submit Status</button>
+                        </div>
+                    </form>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

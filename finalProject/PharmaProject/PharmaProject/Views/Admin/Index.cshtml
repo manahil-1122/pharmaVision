@@ -1,0 +1,112 @@
+﻿@model IEnumerable<Users>
+
+    @* user names to admin *@
+
+<div class="container-fluid bg-light mt-3 h-100 animate__animated  animate__fadeIn">
+
+    <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-10">
+            <div class="layout-spacing">
+                <div class="d-md-flex justify-content-center">
+                    <h4 class="mb-2 pt-4 ps-5">Users Visited</h4>
+                </div>
+            </div>
+            <!-- Start Content -->
+            <div class="row mt-2">
+                <div class="col-md-1"></div>
+                <div class="col-md-10 mb-5">
+                    <div class="card shadow-sm">
+                        <div class="card-header  text-white d-flex justify-content-between align-items-center" style="background-color: #2F2F75;">
+                            <h3 class="card-title mb-0">Users</h3>
+                            <span id="userCountBadge" class="badge text-dark" style="background-color:#D7E2FC">@Model.Count() Users</span>
+                        </div>
+                        <div class="card-body p-4">
+                            <div class="table-responsive">
+                                <table class="table custom-data-table table-striped table-hover jakarta" id="doctorlist">
+                                    <thead class="table-primary">
+                                        <tr>
+                                            <td class="">Username</td>
+                                            <td class="">Company Name</td>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        @foreach (var user in Model)
+                                        {
+                                            <tr>
+
+
+                                                <td>@user.Username</td>
+                                                <td>@user.CompanyName</td>
+                                            </tr>
+                                        }
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+            </div>
+            </div>
+
+
+
+
+
+<script>
+                document.addEventListener("DOMContentLoaded", function () {
+                    updateOrderCount();
+
+                    // Load order count from localStorage if available
+                    const storedOrderCount = localStorage.getItem('userCount');
+                    if (storedOrderCount !== null) {
+                        document.getElementById('orderCountBadge').textContent = `${storedOrderCount} Users
+                        `;
+                        document.getElementById('userCount').textContent = storedOrderCount;
+                    }
+                });
+
+                function toggleOrderComplete(orderId) {
+                    const checkbox = document.getElementById(`completeCheck_${orderId}`);
+                    const isChecked = checkbox.checked;
+
+                    if (isChecked) {
+                        console.log(`Order ${orderId} marked as complete`);
+                    } else {
+                        console.log(`Order ${orderId} marked as incomplete`);
+                    }
+
+                    // Update orders count badge
+                    updateOrderCount();
+                }
+
+                function updateOrderCount() {
+                    const checkedCount = document.querySelectorAll('input[type="checkbox"]:checked').length;
+                    const totalCount = @Model.Count(); // Total orders from Razor view model
+                    const remainingCount = totalCount - checkedCount;
+
+                    document.getElementById('userCountBadge').textContent = `${remainingCount} Users`;
+                    document.getElementById('userCount').textContent = remainingCount;
+
+                    // Store the count in local storage
+                    localStorage.setItem('orderCount', remainingCount);
+                }
+
+                // Update the order count in localStorage whenever a new order is added
+                function addOrder() {
+                    // Logic to add a new order
+                    let currentOrderCount = parseInt(localStorage.getItem('userCount')) || 0;
+                    currentOrderCount += 1;
+                    localStorage.setItem('userCount', currentOrderCount);
+
+                    // Update the order count in the navbar
+                    document.getElementById('userCount').textContent = currentOrderCount;
+                }
+            </script>
+
+
+
+
+

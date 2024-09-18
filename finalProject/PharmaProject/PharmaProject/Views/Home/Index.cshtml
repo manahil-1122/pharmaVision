@@ -1,0 +1,909 @@
+﻿@* @using Microsoft.AspNetCore.Mvc.Rendering
+@using Microsoft.AspNetCore.Authorization
+@inject Microsoft.AspNetCore.Http.IHttpContextAccessor HttpContextAccessor
+
+@{
+    var userRole = HttpContextAccessor.HttpContext.User.IsInRole("Admin") ? "Admin" : "User";
+} *@
+
+@* index for admin *@
+
+@if (User.IsInRole("Admin"))
+
+{
+    <div class="container-fluid bg-light mt-3 animate__animated  animate__fadeIn">
+
+        <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-10">
+                <h3 class="pt-3 ps-2 text-center">Dashboard</h3>
+            </div>
+        </div>
+
+        <div class="row">
+
+            <div class=" col-md-2"></div>
+
+            <div class="col-md-2 mt-4">
+                <div class="card features feature-primary rounded border-0 shadow p-4">
+                    <div class="d-flex align-items-center">
+                        <div class="icon text-center rounded-md">
+                            <i class="fa-solid fa-tablets  fa-beat h3 mb-0" style="color:#2F2F75"></i>
+                        </div>
+                        <div class="flex-1 ms-2">
+                            <h5 class="mb-0">558</h5>
+                            <p class="text-muted mb-0">Tablets...</p>
+                        </div>
+                    </div>
+                </div>
+            </div><!--end col-->
+            <div class="col-md-2 mt-4">
+                <div class="card features feature-primary rounded border-0 shadow p-4">
+                    <div class="d-flex align-items-center">
+                        <div class="icon text-center rounded-md">
+                            <i class="ri-capsule-fill  fa-beat h3 mb-0" style="color:#2F2F75"></i>
+                        </div>
+                        <div class="flex-1 ms-2">
+                            <h5 class="mb-0">400</h5>
+                            <p class="text-muted mb-0">Capsules...</p>
+                        </div>
+                    </div>
+                </div>
+            </div><!--end col-->
+            <div class="col-md-2 mt-4">
+                <div class="card features feature-primary rounded border-0 shadow p-4">
+                    <div class="d-flex align-items-center">
+                        <div class="icon text-center rounded-md">
+                            <i class="fa-solid fa-money-bill fa-beat h3 mb-0" style="color:#2F2F75" ></i>
+                            
+                        </div>
+                        <div class="flex-1 ms-2">
+                            <h5 class="mb-0">$2164</h5>
+                            <p class="text-muted mb-0">Avg. costs...</p>
+                        </div>
+                    </div>
+                </div>
+            </div><!--end col-->
+            <div class="col-md-2 mt-4">
+                <div class="card features feature-primary rounded border-0 shadow p-4">
+                    <div class="d-flex align-items-center">
+                        <div class="icon text-center rounded-md">
+                            <i class="fa-solid fa-syringe  fa-beat h3 mb-0"  style="color:#2F2F75"></i>
+                        </div>
+                        <div class="flex-1 ms-2">
+                            <h5 class="mb-0">112</h5>
+                            <p class="text-muted mb-0">Fillings(Syringe)...</p>
+                        </div>
+                    </div>
+                </div>
+            </div><!--end col-->
+            <div class="col-xl-2 col-lg-4 col-md-4 mt-4">
+                <div class="card features feature-primary rounded border-0 shadow p-4">
+                    <div class="d-flex align-items-center">
+                        <div class="icon text-center rounded-md">
+                            <i class="fa-solid fa-user-doctor  fa-beat h3 mb-0" style="color:#2F2F75"></i>
+                        </div>
+                        <div class="flex-1 ms-2">
+                            <h5 class="mb-0">16</h5>
+                            <p class="text-muted mb-0">Candidates...</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div><!--end col-->
+
+
+        </div>
+
+
+
+
+        <div class="row mt-4 ms-5">
+            <div class="col-md-2"></div>
+
+            <div class="col-xl-3 col-lg-6 mt-4 ms-4">
+                <div class="card border-0 shadow rounded">
+                    <div class="d-flex justify-content-between align-items-center p-4 border-bottom">
+                        <h6 class="mb-0"><i class="fa-solid fa-prescription-bottle-medical me-1 h5 align-middle mt-1" style="color:#2F2F75"></i> Latest Production</h6>
+                        <h6 class="text-muted mb-0">25 Productions</h6>
+                    </div>
+
+                    <ul class="list-unstyled mb-0 p-4">
+                        <li>
+                            <div class="d-flex align-items-center justify-content-between">
+                                <div class="d-inline-flex">
+                                    <img src="../libs/images/cap2.jpeg" class="avatar avatar-md-sm rounded-circle border shadow" alt="">
+                                    <div class="ms-3">
+                                        <h6 class="text-dark mb-0 d-block">Doxycycline..</h6>
+                                        <small class="text-muted">Produced on 29th Oct, 2020</small>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <a href="#" class="btn btn-icon btn-pills btn-soft-success"><i class="uil uil-check"></i></a>
+                                    </div>
+                                    <div class="col-md-4 ms-1">
+
+                                        <a href="#" class="btn btn-icon btn-pills btn-soft-danger"><i class="uil uil-times"></i></a>
+                                    </div>
+                                </div>
+                        </li>
+
+                        <li class="mt-4">
+                            <div class="d-flex align-items-center justify-content-between">
+                                <div class="d-inline-flex">
+                                    <img src="../libs/images/covid.webp" class="avatar avatar-md-sm rounded-circle border shadow" alt="">
+                                    <div class="ms-3">
+                                        <h6 class="text-dark mb-0 d-block">Pfizer..</h6>
+                                        <small class="text-muted">Booking on 27th Nov, 2021</small>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <a href="#" class="btn btn-icon btn-pills btn-soft-success"><i class="uil uil-check"></i></a>
+                                    </div>
+                                    <div class="col-md-4 ms-1">
+
+                                        <a href="#" class="btn btn-icon btn-pills btn-soft-danger"><i class="uil uil-times"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="mt-4">
+                            <div class="d-flex align-items-center justify-content-between">
+                                <div class="d-inline-flex">
+                                    <img src="../libs/images/mor2.jpg" class="avatar avatar-md-sm rounded-circle border shadow" alt="">
+                                    <div class="ms-3">
+                                        <h6 class="text-dark mb-0 d-block">Morphine</h6>
+                                        <small class="text-muted">Booking on 27th Sept, 2023</small>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <a href="#" class="btn btn-icon btn-pills btn-soft-success"><i class="uil uil-check"></i></a>
+                                    </div>
+                                    <div class="col-md-4 ms-1">
+
+                                        <a href="#" class="btn btn-icon btn-pills btn-soft-danger"><i class="uil uil-times"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="mt-4">
+                            <div class="d-flex align-items-center justify-content-between">
+                                <div class="d-inline-flex">
+                                    <img src="../libs/images/tab2.jpg" class="avatar avatar-md-sm rounded-circle border shadow" alt="">
+                                    <div class="ms-3">
+                                        <h6 class="text-dark mb-0 d-block">Panadol</h6>
+                                        <small class="text-muted">Booking on 15th Jan, 2020</small>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <a href="#" class="btn btn-icon btn-pills btn-soft-success"><i class="uil uil-check"></i></a>
+                                    </div>
+                                    <div class="col-md-4 ms-1">
+
+                                        <a href="#" class="btn btn-icon btn-pills btn-soft-danger"><i class="uil uil-times"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+
+                    </ul>
+                </div>
+            </div><!--end col-->
+            <div class="col-xl-3 col-lg-12 mt-4">
+                <div class="card border-0 shadow rounded">
+                    <div class="p-4 border-bottom">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <h6 class="mb-0">
+                                <i class="fa-solid fa-user  me-1 h5 align-middle mt-1" style="color:#2F2F75"></i>
+                                <span class="align-middle">Company Reviews</span>
+                            </h6>
+
+
+
+                            <div class="mb-0 position-relative">
+                                <select class="form-select form-control" id="dailypatient">
+                                    <option selected>New</option>
+                                    <option value="2019">Old</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+
+                    <ul class="list-unstyled mb-0 p-4" data-simplebar style="height: 355px;">
+                        <li class="d-flex align-items-center justify-content-between">
+                            <div class="d-flex align-items-center">
+                                <img src="../libs/images/per1.jpg" class="avatar avatar-small rounded-circle border shadow" alt="">
+                                <div class="flex-1 ms-3">
+                                    <span class="d-block h6 mb-0">ABC & Co</span>
+                                    <small class="text-muted">Authenticity</small>
+
+                                    <ul class="list-unstyled mb-0">
+                                        <li class="list-inline-item text-muted">(45)</li>
+                                        <li class="list-inline-item"><i class="fa-regular fa-star" style="color:#2F2F75"></i></li>
+                                        <li class="list-inline-item"><i class="fa-regular fa-star" style="color:#2F2F75"></i></li>
+                                        <li class="list-inline-item"><i class="fa-regular fa-star" style="color:#2F2F75"></i></li>
+                                       
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <p class="text-muted mb-0">10 Productions</p>
+                        </li>
+
+                        <li class="d-flex align-items-center justify-content-between mt-4">
+                            <div class="d-flex align-items-center">
+                                <img src="../libs/images/per2.jpg" class="avatar avatar-small rounded-circle border shadow" alt="">
+                                <div class="flex-1 ms-3">
+                                    <span class="d-block h6 mb-0">XYZ Co</span>
+                                    <small class="text-muted">Proper Work</small>
+
+                                    <ul class="list-unstyled mb-0">
+                                        <li class="list-inline-item text-muted">(75)</li>
+                                        <li class="list-inline-item"><i class="fa-regular fa-star" style="color:#2F2F75"></i></li>
+                                        <li class="list-inline-item"><i class="fa-regular fa-star" style="color:#2F2F75"></i></li>
+                                        <li class="list-inline-item"><i class="fa-regular fa-star" style="color:#2F2F75"></i></li>
+                                       
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <p class="text-muted mb-0">23 Productions</p>
+                        </li>
+
+                        <li class="d-flex align-items-center justify-content-between mt-4">
+                            <div class="d-flex align-items-center">
+                                <img src="../libs/images/per3.jpeg" class="avatar avatar-small rounded-circle border shadow" alt="">
+                                <div class="flex-1 ms-3">
+                                    <span class="d-block h6 mb-0">AAA & SONS</span>
+                                    <small class="text-muted">Good Quality</small>
+
+                                    <ul class="list-unstyled mb-0">
+                                        <li class="list-inline-item text-muted">(48)</li>
+                                        <li class="list-inline-item"><i class="fa-regular fa-star" style="color:#2F2F75"></i></li>
+                                        <li class="list-inline-item"><i class="fa-regular fa-star" style="color:#2F2F75"></i></li>
+                                        <li class="list-inline-item"><i class="fa-regular fa-star" style="color:#2F2F75"></i></li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <p class="text-muted mb-0">14 Productions</p>
+                        </li>
+
+                        <li class="d-flex align-items-center justify-content-between mt-4">
+                            <div class="d-flex align-items-center">
+                                <img src="../libs/images/per4.jpeg" class="avatar avatar-small rounded-circle border shadow" alt="">
+                                <div class="flex-1 ms-3">
+                                    <span class="d-block h6 mb-0">ABC Pharmacy</span>
+                                    <small class="text-muted">Comitted To Work</small>
+
+                                    <ul class="list-unstyled mb-0">
+                                        <li class="list-inline-item text-muted">(68)</li>
+                                        <li class="list-inline-item"><i class="fa-regular fa-star" style="color:#2F2F75"></i></li>
+                                        <li class="list-inline-item"><i class="fa-regular fa-star" style="color:#2F2F75"></i></li>
+                                        <li class="list-inline-item"><i class="fa-regular fa-star" style="color:#2F2F75"></i></li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <p class="text-muted mb-0">50 Productions</p>
+                        </li>
+
+                        <li class="d-flex align-items-center justify-content-between mt-4">
+                            <div class="d-flex align-items-center">
+                                <img src="../libs/images/per5.jpg" class="avatar avatar-small rounded-circle border shadow" alt="">
+                                <div class="flex-1 ms-3">
+                                    <span class="d-block h6 mb-0">ERD & Sons</span>
+                                    <small class="text-muted">Punctuality</small>
+
+                                    <ul class="list-unstyled mb-0">
+                                        <li class="list-inline-item text-muted">(55)</li>
+                                        <li class="list-inline-item"><i class="fa-regular fa-star" style="color:#2F2F75"></i></li>
+                                        <li class="list-inline-item"><i class="fa-regular fa-star" style="color:#2F2F75"></i></li>
+                                        <li class="list-inline-item"><i class="fa-regular fa-star" style="color:#2F2F75"></i></li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <p class="text-muted mb-0">* Productions</p>
+                        </li>
+                    </ul>
+                </div>
+            </div><!--end col-->
+
+            <div class="col-xl-3 col-lg-6 mt-4">
+                <div class="card chat chat-person border-0 shadow rounded">
+                    <div class="d-flex justify-content-between border-bottom p-4">
+                        <div class="d-flex">
+                            <img src="../libs/images/pharma.jpg" class="avatar avatar-md-sm rounded-circle border shadow" alt="">
+                            <div class="flex-1 overflow-hidden ms-3">
+                                <a href="#" class="text-dark mb-0 h6 d-block text-truncate">Mr A</a>
+                                <small class="text-muted"> Online</small>
+                            </div>
+                        </div>
+
+                        <ul class="list-unstyled mb-0">
+                            <li class="dropdown dropdown-primary list-inline-item">
+                                <button type="button" class="btn btn-icon btn-pills btn-soft-primary dropdown-toggle p-0" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="fa-solid fa-message" style="color:#2F2F75"></i></button>
+                                
+                            </li>
+                        </ul>
+                    </div>
+
+                    <ul class="p-4 list-unstyled mb-0 chat" data-simplebar style="background: url('../assets/images/bg/bg-chat.png') center center; max-height: 295px;">
+                        <li>
+                            <div class="d-inline-block">
+                                <div class="d-flex chat-type mb-3">
+                                    <div class="position-relative">
+                                        <img src="../libs/images/pharma.jpg" class="avatar avatar-md-sm rounded-circle border shadow" alt="">
+                                        
+                                    </div>
+
+                                    <div class="flex-1 chat-msg" style="max-width: 500px;">
+                                        <p class="text-muted small shadow px-3 py-2 bg-light rounded mb-1">Hey Christopher</p>
+                                        <small class="text-muted msg-time">59 min ago</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="chat-right">
+                            <div class="d-inline-block">
+                                <div class="d-flex chat-type mb-3">
+                                    <div class="position-relative chat-user-image">
+                                        <img src="../libs/images/per5.jpg" class="avatar avatar-md-sm rounded-circle border shadow" alt="">
+                                        
+                                    </div>
+
+                                    <div class="flex-1 chat-msg" style="max-width: 500px;">
+                                        <p class="text-muted small shadow px-3 py-2 bg-light rounded mb-1">Hello Mr A</p>
+                                        <small class="text-muted msg-time">45 min ago</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="chat-right">
+                            <div class="d-inline-block">
+                                <div class="d-flex chat-type mb-3">
+                                    <div class="position-relative chat-user-image">
+                                        <img src="../libs/images/per5.jpg" class="avatar avatar-md-sm rounded-circle border shadow" alt="">
+                                        
+
+                                    <div class="flex-1 chat-msg" style="max-width: 500px;">
+                                        <p class="text-muted small shadow px-3 py-2 bg-light rounded mb-1">How can i help you?</p>
+                                        <small class="text-muted msg-time">>44 min ago</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="d-inline-block">
+                                <div class="d-flex chat-type mb-3">
+                                    <div class="position-relative">
+                                        <img src="../libs/images/pharma.jpg" class="avatar avatar-md-sm rounded-circle border shadow" alt="">
+                                       
+                                    </div>
+
+                                    <div class="flex-1 chat-msg" style="max-width: 500px;">
+                                        <p class="text-muted small shadow px-3 py-2 bg-light rounded mb-1">Nice to meet you</p>
+                                        <small class="text-muted msg-time">42 min ago</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="d-inline-block">
+                                <div class="d-flex chat-type mb-3">
+                                    <div class="position-relative">
+                                        <img src="../libs/images/pharma.jpg" class="avatar avatar-md-sm rounded-circle border shadow" alt="">
+                                        
+                                    </div>
+
+                                    <div class="flex-1 chat-msg" style="max-width: 500px;">
+                                        <p class="text-muted small shadow px-3 py-2 bg-light rounded mb-1">Hope you are doing fine?</p>
+                                        <small class="text-muted msg-time">40 min ago</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="chat-right">
+                            <div class="d-inline-block">
+                                <div class="d-flex chat-type mb-3">
+                                    <div class="position-relative chat-user-image">
+                                        <img src="../libs/images/per5.jpg" class="avatar avatar-md-sm rounded-circle border shadow" alt="">
+                                       
+                                    </div>
+
+                                    <div class="flex-1 chat-msg" style="max-width: 500px;">
+                                        <p class="text-muted small shadow px-3 py-2 bg-light rounded mb-1">I'm good thanks for asking</p>
+                                        <small class="text-muted msg-time">45 min ago</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="d-inline-block">
+                                <div class="d-flex chat-type mb-3">
+                                    <div class="position-relative">
+                                        <img src="../libs/images/pharma.jpg" class="avatar avatar-md-sm rounded-circle border shadow" alt="">
+                                       
+                                    </div>
+
+                                    <div class="flex-1 chat-msg" style="max-width: 500px;">
+                                        <p class="text-muted small shadow px-3 py-2 bg-light rounded mb-1">I am intrested to know more about your prices and services you offer</p>
+                                        <small class="text-muted msg-time">35 min ago</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="chat-right">
+                            <div class="d-inline-block">
+                                <div class="d-flex chat-type mb-3">
+                                    <div class="position-relative chat-user-image">
+                                        <img src="../libs/images/per5.jpg" class="avatar avatar-md-sm rounded-circle border shadow" alt="">
+                                       
+                                    </div>
+
+                                    <div class="flex-1 chat-msg" style="max-width: 500px;">
+                                        <p class="text-muted small shadow px-3 py-2 bg-light rounded mb-1">Sure please check below link to find more useful information <a href="https://1.envato.market/doctris-template" target="_blank" class="text-primary">https://shreethemes.in/Doctris/</a></p>
+                                        <small class="text-muted msg-time">25 min ago</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="d-inline-block">
+                                <div class="d-flex chat-type mb-3">
+                                    <div class="position-relative">
+                                        <img src="../libs/images/pharma.jpg" class="avatar avatar-md-sm rounded-circle border shadow" alt="">
+                                       
+                                    </div>
+
+                                    <div class="flex-1 chat-msg" style="max-width: 500px;">
+                                        <p class="text-muted small shadow px-3 py-2 bg-light rounded mb-1">Thank you 😊</p>
+                                        <small class="text-muted msg-time">20 min ago</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="chat-right">
+                            <div class="d-inline-block">
+                                <div class="d-flex chat-type mb-3">
+                                    <div class="position-relative chat-user-image">
+                                        <img src="../libs/images/per5.jpg" class="avatar avatar-md-sm rounded-circle border shadow" alt="">
+                                       
+                                    </div>
+
+                                    <div class="flex-1 chat-msg" style="max-width: 500px;">
+                                        <p class="text-muted small shadow px-3 py-2 bg-light rounded mb-1">Welcome</p>
+                                        <small class="text-muted msg-time">18 min ago</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+
+                    <div class="p-2 rounded-bottom shadow">
+                        <div class="row">
+                            <div class="col">
+                                <input type="text" class="form-control border" placeholder="Enter Message...">
+                            </div>
+                            <div class="col-auto">
+                                <a href="#" class="btn btn-icon btn-primary"><i class="fa-solid fa-message"></i></a>
+                                <a href="#" class="btn btn-icon btn-primary"><i class="fa-solid fa-face-smile"></i></a>
+                                <a href="#" class="btn btn-icon btn-primary"><i class="fa-solid fa-paperclip"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div><!--end col-->
+
+
+        </div><!--end row-->
+
+        <div class="row mb-5 mt-4">
+            <div class="col-md-2"></div>
+            <div class="col-xl-6 col-lg-7 mt-4 mb-4">
+                <div class="card shadow border-0 p-4">
+                    <div class="d-flex justify-content-between align-items-center mb-3">
+                        <h6 class="align-items-center mb-0">Medicine produced during years</h6>
+
+                        <div class="mb-0 position-relative">
+                            <select class="form-select form-control" id="yearchart">
+                                <option selected>2020</option>
+                                <option value="2019">2019</option>
+                                <option value="2018">2018</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div id="dashboard" class="apex-chart"></div>
+                </div>
+            </div><!--end col-->
+
+            <div class="col-xl-4 col-lg-5 mt-4">
+                <div class="card shadow border-0 p-4">
+                    <div class="d-flex justify-content-between align-items-center mb-3">
+                        <h6 class="align-items-center mb-0">Categories of Medicines</h6>
+
+                        <div class="mb-0 position-relative">
+                            <select class="form-select form-control" id="dailychart">
+                                <option selected>Today</option>
+                                <option value="2019">Yesterday</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div id="department" class="apex-chart"></div>
+                </div>
+            </div><!--end col-->
+        </div>
+
+
+
+    </div>
+
+}
+
+else 
+{
+    @* index for userpage *@
+
+    <!-- bg image -->
+    <div class="container-fluid animate__animated  animate__fadeIn">
+    <section class="bg-half-260 d-table w-100" style="background: url('../assets2/images/bg4.webp') center; background-repeat:no-repeat;background-size:cover;">
+        <div class="bg-overlay bg-overlay-dark"></div>
+        <div class="container">
+            <div class="row mt-5 mt-lg-0">
+                <div class="col-12">
+                    <div class="heading-title">
+                       
+                        <h4 class="display-4 fw-bold text-white title-dark mt-3 mb-4">Take Care <br> Of Your Health</h4>
+                        <p class="para-desc text-white-50 mb-0">Great pharmacy if you need your family member to get effective immediate cure, emergency treatment or a simple medications...</p>
+
+                        <div class="mt-4 pt-2">
+                            <a  class="btn btn-primary" asp-controller="Home" asp-action="About">Explore More</a>
+                           
+                        </div>
+                    </div>
+                </div><!--end col-->
+            </div><!--end row-->
+        </div><!--end container-->
+    </section>
+
+    <!--bg image-->
+   
+    <!-- service and about us -->
+    <section class="section">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12">
+                    <div class="section-title text-center mb-4 pb-2">
+                        <h4 class="title mb-4">Explore By Categories</h4>
+                        <p class="text-muted mx-auto para-desc mb-0">Great pharmacy if you need your family member to get effective immediate cure, emergency treatment or a simple medications...</p>
+                    </div>
+                </div><!--end col-->
+            </div><!--end row-->
+
+            <div class="row justify-content-center">
+                <div class="col-xl col-md-4 col-12 mt-4 pt-2">
+                    <div class="card features feature-primary border-0 p-4 rounded-md shadow">
+                        <div class="icon text-center rounded-lg">
+                            <i class="fa-solid fa-tablets h3 mb-0"></i>
+                        </div>
+                        <div class="card-body p-0 mt-3">
+                            <a href="departments.html" class="title text-dark h5">Tablets</a>
+                            <p class="text-muted mt-3">Compressed  dosage form containing medicaments.</p>
+                            <a asp-area="" asp-controller="Tablet" asp-action="Index" class="link">Find here <i class="ri-arrow-right-line align-middle"></i></a>
+                        </div>
+                    </div>
+                </div><!--end col-->
+
+                <div class="col-xl col-md-4 col-12 mt-4 pt-2">
+                    <div class="card features feature-primary border-0 p-4 rounded-md shadow">
+                        <div class="icon text-center rounded-lg">
+                            <i class="ri-capsule-fill h3 mb-0"></i>
+                        </div>
+                        <div class="card-body p-0 mt-3">
+                            <a href="departments.html" class="title text-dark h5">Capsules</a>
+                            <p class="text-muted mt-3">Drug enclosed container, form of gelatin.</p>
+                            <a asp-area="" asp-controller="Capsules" asp-action="Index" class="link">Find here <i class="ri-arrow-right-line align-middle"></i></a>
+                        </div>
+                    </div>
+                </div><!--end col-->
+
+                <div class="col-xl col-md-4 col-12 mt-4 pt-2">
+                    <div class="card features feature-primary border-0 p-4 rounded-md shadow">
+                        <div class="icon text-center rounded-lg">
+                            <i class="fa-solid fa-syringe h3 mb-0"></i>
+                        </div>
+                        <div class="card-body p-0 mt-3">
+                            <a href="departments.html" class="title text-dark h5">Fillings</a>
+                            <p class="text-muted mt-3">Medical instrument for injecting or drawing off liquid,</p>
+                            <a asp-area="" asp-controller="Liquid" asp-action="Index" class="link">Find here <i class="ri-arrow-right-line align-middle"></i></a>
+                        </div>
+                    </div>
+                </div><!--end col-->
+
+                <div class="col-xl col-md-4 col-12 mt-4 pt-2">
+                    <div class="card features feature-primary border-0 p-4 rounded-md shadow">
+                        <div class="icon text-center rounded-lg">
+                            <i class="fa-solid fa-comment h3 mb-0"></i>
+                        </div>
+                        <div class="card-body p-0 mt-3">
+                            <a href="departments.html" class="title text-dark h5">User Feedbacks</a>
+                            <p class="text-muted mt-3">Qualitative and quantitative data from customers </p>
+                            <a asp-area="" asp-controller="Feed" asp-action="Create" class="link">Find here <i class="ri-arrow-right-line align-middle"></i></a>
+                        </div>
+                    </div>
+                </div><!--end col-->
+
+                <div class="col-xl col-md-4 col-12 mt-4 pt-2">
+                    <div class="card features feature-primary border-0 p-4 rounded-md shadow">
+                        <div class="icon text-center rounded-lg">
+                            <i class="fa-solid fa-user-doctor h3 mb-0"></i>
+                        </div>
+                        <div class="card-body p-0 mt-3">
+                            <a href="departments.html" class="title text-dark h5">Careers</a>
+                            <p class="text-muted mt-3">Candidates drop cvs and apply for better future </p>
+                            <a asp-area="" asp-controller="Career" asp-action="Create" class="link">Find here <i class="ri-arrow-right-line align-middle"></i></a>
+                        </div>
+                    </div>
+                </div><!--end col-->
+            </div><!--end row-->
+        </div>
+        <!--end service-->
+        <!--about-->
+        <div class="container mt-100 mt-60">
+            <div class="row align-items-center">
+                <div class="col-lg-7 col-md-6">
+                    <div class="section-title me-lg-5">
+                        <span class="badge rounded-pill bg-soft-primary">About PHARMA CARE</span>
+                        <h4 class="title mt-3 mb-4">Good Quality And Better <br> Services By Our Specialists</h4>
+                        <p class="para-desc text-muted">“Wherever the art of medicine is loved, there is also a love of humanity.” ....</p>
+                        <p class="para-desc text-muted">Pharmaceutical companies invest lots of money to research and produce drugs/medicines for patients. Patients and healthcare providers (doctors, nurses, hospitals, nursing homes, clinics, etc.) are all dependent on these companies for the treatment of diseases.</p>
+                        
+                    </div>
+                </div><!--end col-->
+
+                <div class="col-lg-5 col-md-6 mt-4 pt-2 mt-sm-0 pt-sm-0">
+                    <div class="position-relative">
+                        <img src="../assets2/images/about/about-2.png" class="img-fluid" alt="">
+                       
+                    </div>
+                </div><!--end col-->
+            </div><!--end row-->
+        </div><!--end container-->
+    </section>
+
+
+    <!-- service and about us -->
+
+    @* our mission *@
+
+    <!-- Cta Start -->
+    <section class="section" style="background: url('../assets2/images/bg5.jpg') center center;">
+        <div class="bg-overlay bg-overlay-dark" style="opacity: 0.3;"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 offset-lg-7 col-md-7 offset-md-5">
+                    <div class="features feature-bg-primary d-flex card flex-row p-4 rounded-md shadow position-relative overflow-hidden">
+                        <i class="uil uil-briefcase icons h2 mb-0 text-primary"></i>
+                        <div class="ms-3">
+                            <h5 class="titles">Our Mission</h5>
+                            <p class="text-muted para mb-0">To preserve and improve patients health by consistently delivering high quality, safe  products and services that meet customer expectations...</p>
+                        </div>
+                        <div class="big-icon">
+                            <i class="uil uil-briefcase"></i>
+                        </div>
+                    </div>
+
+                    <div class="features feature-bg-primary d-flex card flex-row p-4 rounded-md shadow position-relative overflow-hidden mt-4">
+                        <i class="uil uil-airplay icons h2 mb-0 text-primary"></i>
+                        <div class="ms-3">
+                            <h5 class="titles">Our Vision</h5>
+                            <p class="text-muted para mb-0">To discover, develop and trade pharmaceutical products to prevent, diagnose, alleviate and cure disease...</p>
+                        </div>
+                        <div class="big-icon">
+                            <i class="uil uil-airplay"></i>
+                        </div>
+                    </div>
+
+                    <div class="features feature-bg-primary d-flex card flex-row p-4 rounded-md shadow position-relative overflow-hidden mt-4">
+                        <i class="uil uil-flip-v icons h2 mb-0 text-primary"></i>
+                        <div class="ms-3">
+                            <h5 class="titles">Who We Are ?</h5>
+                            <p class="text-muted para mb-0"> study the diseases, research, and invent new drugs/medicines for the diseases...</p>
+                        </div>
+                        <div class="big-icon">
+                            <i class="uil uil-flip-v"></i>
+                        </div>
+                    </div>
+                </div><!--end col-->
+            </div><!--end row-->
+        </div><!--end container-->
+    </section>
+
+    <!--end section-->
+    <!-- Cta End -->
+
+    <div class="container mt-100 mt-60">
+        <div class="row align-items-center">
+            <div class="col-md-6 col-12">
+                <div class="me-lg-5">
+                    <img src="https://shreethemes.in/doctris/layouts/assets/images/svg/vaccine-development-amico.svg" class="img-fluid" alt="">
+                </div>
+            </div><!--end col-->
+
+            <div class="col-md-6 col-12 mt-4 mt-sm-0 pt-2 pt-sm-0">
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item border rounded">
+                        <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button border-0 bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                                    aria-expanded="true" aria-controls="collapseOne">
+                                What are clinical trials?
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse border-0 collapse show" aria-labelledby="headingOne"
+                             data-bs-parent="#accordionExample">
+                            <div class="accordion-body text-muted">
+                                Clinical trials are research studies conducted with people who volunteer to take part in testing how well new medical approaches work. Each study answers scientific questions and tries to find better ways to prevent, screen for, diagnose, or treat a disease.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item border rounded mt-2">
+                        <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button border-0 bg-light collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+                                    aria-expanded="false" aria-controls="collapseTwo">
+                               What are the biggest challenges?
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse border-0 collapse" aria-labelledby="headingTwo"
+                             data-bs-parent="#accordionExample">
+                            <div class="accordion-body text-muted">
+                                Rising Costs: One of the most significant challenges faced by the life sciences and pharmaceutical industry is the increasing costs of research and development. Developing new drugs and treatments is a complex and expensive process that involves rigorous testing, clinical trials, and regulatory approvals.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item border rounded mt-2">
+                        <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button border-0 bg-light collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                What makes a good pharmaceutical company?
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse border-0 collapse" aria-labelledby="headingThree"
+                             data-bs-parent="#accordionExample">
+                            <div class="accordion-body text-muted">
+                                Developing a drug for market and winning FDA approval can take up to 10 years. Investors should look for companies with a strong pipeline, a track record of successfully taking drugs to market, and drugs that have passed FDA scrutiny.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item border rounded mt-2">
+                        <h2 class="accordion-header" id="headingFour">
+                            <button class="accordion-button border-0 bg-light collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                What are the biggest problems in pharmacy today?
+                            </button>
+                        </h2>
+                        <div id="collapseFour" class="accordion-collapse border-0 collapse" aria-labelledby="headingFour"
+                             data-bs-parent="#accordionExample">
+                            <div class="accordion-body text-muted">
+                                Navigating Change: The Biggest Challenges Facing Pharmacy Today
+                                Staffing Shortages: A Growing Dilemma. ...
+                                Work-Related Burnout and Stress: The Silent Threat. ...
+                                Technology & Automation: The Road to Efficiency. ...
+                                The Cost of Living: A Balancing Act. ...
+                                Drug Pricing and Shortages: A Continuing Struggle.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div><!--end col-->
+        </div><!--end row-->
+
+        <div class="row mt-4 pt-2 justify-content-center">
+            <div class="col-12 text-center">
+                <div class="section-title">
+                    <h4 class="title mb-4">Have Question ? Get in touch!</h4>
+                    <p class="text-muted para-desc mx-auto">Great doctor if you need your family member to get effective immediate assistance, emergency treatment or a simple consultation.</p>
+                    <a asp-controller="Home" asp-action="Contact" class="btn btn-primary mt-4"><i class="mdi mdi-phone"></i> Contact us</a>
+                </div>
+            </div><!--end col-->
+        </div><!--end row-->
+    </div>
+
+    <!--end container-->
+    <!-- Start -->
+    <footer class="mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-5 col-lg-4 mb-0 mb-md-4 pb-0 pb-md-2">
+                    <a class="logo-footer">
+                        <img src="../assets2/images/logofinal.png" height="100" alt="">
+                    </a>
+                    <p class=" me-xl-5">Great pharmacy if you need your family member to get effective immediate assistance,cure or a simple medications.</p>
+                </div><!--end col-->
+
+                <div class="col-xl-7 col-lg-8 col-md-12">
+                    <div class="row">
+                        <div class="col-md-4 col-12 mt-4 mt-sm-0 pt-2 pt-sm-0">
+                            <h5 class="footer-head">PHARMA CARE</h5>
+                            <ul class="list-unstyled footer-list mt-4">
+                                <li><a asp-area="" asp-controller="Home" asp-action="About" class="text-foot"><i class="mdi mdi-chevron-right me-1"></i> About us</a></li>
+                                <li><a asp-area="" asp-controller="Career" asp-action="Create" class="text-foot"><i class="mdi mdi-chevron-right me-1"></i> Careers</a></li>
+                                <li><a asp-area="" asp-controller="Home" asp-action="Contact" class="text-foot"><i class="mdi mdi-chevron-right me-1"></i> Contact Us</a></li>
+
+                                <li><a asp-area="" asp-controller="Feed" asp-action="Create" class="text-foot"><i class="mdi mdi-chevron-right me-1"></i> Feedback</a></li>
+
+                            </ul>
+                        </div><!--end col-->
+
+                        <div class="col-md-4 col-12 mt-4 mt-sm-0 pt-2 pt-sm-0">
+                            <h5 class="footer-head">Products</h5>
+                            <ul class="list-unstyled footer-list mt-4">
+                                <li><a asp-area="" asp-controller="Tablet" asp-action="Index" class="text-foot"><i class="mdi mdi-chevron-right me-1"></i> Tablets</a></li>
+                                <li>
+                                    <a asp-area="" asp-controller="Capsules" asp-action="Index" class="text-foot"><i class="mdi mdi-chevron-right me-1"></i> Capsules</a>
+
+                                </li>
+                                <li><a asp-area="" asp-controller="Liquid" asp-action="Index" class="text-foot"><i class="mdi mdi-chevron-right me-1"></i> Fillings</a></li>
+
+                            </ul>
+                        </div><!--end col-->
+
+                        <div class="col-md-4 col-12 mt-4 mt-sm-0 pt-2 pt-sm-0">
+                            <h5 class="footer-head">Contact us</h5>
+                            <ul class="list-unstyled footer-list mt-4">
+                                <li class="d-flex align-items-center">
+                                    <i data-feather="mail" class="fea icon-sm text-foot align-middle"></i>
+                                    <a href="mailto:contact@example.com" class="text-foot ms-2">contact@example.com</a>
+                                </li>
+
+                                <li class="d-flex align-items-center">
+                                    <i data-feather="phone" class="fea icon-sm text-foot align-middle"></i>
+                                    <a href="tel:+152534-468-854" class="text-foot ms-2">+152 534-468-854</a>
+                                </li>
+
+                                <li class="d-flex align-items-center">
+                                    <i data-feather="map-pin" class="fea icon-sm text-foot align-middle"></i>
+                                    <a href="javascript:void(0)" class="video-play-icon text-foot ms-2">View on Google map</a>
+                                </li>
+                            </ul>
+
+                            <ul class="list-unstyled social-icon footer-social mb-0 mt-4">
+                                <li class="list-inline-item"><a href="#" class="rounded-pill"><i data-feather="facebook" class="fea icon-sm fea-social"></i></a></li>
+                                <li class="list-inline-item"><a href="#" class="rounded-pill"><i data-feather="instagram" class="fea icon-sm fea-social"></i></a></li>
+                                <li class="list-inline-item"><a href="#" class="rounded-pill"><i data-feather="twitter" class="fea icon-sm fea-social"></i></a></li>
+                                <li class="list-inline-item"><a href="#" class="rounded-pill"><i data-feather="linkedin" class="fea icon-sm fea-social"></i></a></li>
+                            </ul><!--end icon-->
+                        </div><!--end col-->
+                    </div><!--end row-->
+                </div><!--end col-->
+            </div><!--end row-->
+        </div><!--end container-->
+
+       
+    </footer>
+    <!--end footer-->
+    <!-- End -->
+    </div>
+
+
+  
+}
